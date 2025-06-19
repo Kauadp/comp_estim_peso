@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "b6eac796",
+   "id": "395ccb46",
    "metadata": {
     "papermill": {
-     "duration": 0.018875,
-     "end_time": "2025-06-19T21:05:46.043989",
+     "duration": 0.029936,
+     "end_time": "2025-06-19T22:53:22.609406",
      "exception": false,
-     "start_time": "2025-06-19T21:05:46.025114",
+     "start_time": "2025-06-19T22:53:22.579470",
      "status": "completed"
     },
     "tags": []
@@ -20,19 +20,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "f6141c71",
+   "id": "7cb06bee",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:46.080287Z",
-     "iopub.status.busy": "2025-06-19T21:05:46.078545Z",
-     "iopub.status.idle": "2025-06-19T21:05:47.399591Z",
-     "shell.execute_reply": "2025-06-19T21:05:47.398267Z"
+     "iopub.execute_input": "2025-06-19T22:53:22.669066Z",
+     "iopub.status.busy": "2025-06-19T22:53:22.666607Z",
+     "iopub.status.idle": "2025-06-19T22:53:24.416968Z",
+     "shell.execute_reply": "2025-06-19T22:53:24.415017Z"
     },
     "papermill": {
-     "duration": 1.34043,
-     "end_time": "2025-06-19T21:05:47.401353",
+     "duration": 1.782319,
+     "end_time": "2025-06-19T22:53:24.419484",
      "exception": false,
-     "start_time": "2025-06-19T21:05:46.060923",
+     "start_time": "2025-06-19T22:53:22.637165",
      "status": "completed"
     },
     "tags": []
@@ -118,13 +118,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "fd4f0061",
+   "id": "e99af930",
    "metadata": {
     "papermill": {
-     "duration": 0.016211,
-     "end_time": "2025-06-19T21:05:47.434479",
+     "duration": 0.027054,
+     "end_time": "2025-06-19T22:53:24.473861",
      "exception": false,
-     "start_time": "2025-06-19T21:05:47.418268",
+     "start_time": "2025-06-19T22:53:24.446807",
      "status": "completed"
     },
     "tags": []
@@ -137,19 +137,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "15a05dc0",
+   "id": "d17333d6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:47.491529Z",
-     "iopub.status.busy": "2025-06-19T21:05:47.469588Z",
-     "iopub.status.idle": "2025-06-19T21:05:47.563704Z",
-     "shell.execute_reply": "2025-06-19T21:05:47.562175Z"
+     "iopub.execute_input": "2025-06-19T22:53:24.562104Z",
+     "iopub.status.busy": "2025-06-19T22:53:24.530534Z",
+     "iopub.status.idle": "2025-06-19T22:53:24.653491Z",
+     "shell.execute_reply": "2025-06-19T22:53:24.651707Z"
     },
     "papermill": {
-     "duration": 0.114043,
-     "end_time": "2025-06-19T21:05:47.565530",
+     "duration": 0.154857,
+     "end_time": "2025-06-19T22:53:24.655899",
      "exception": false,
-     "start_time": "2025-06-19T21:05:47.451487",
+     "start_time": "2025-06-19T22:53:24.501042",
      "status": "completed"
     },
     "tags": []
@@ -157,18 +157,18 @@
    "outputs": [],
    "source": [
     "dados_treino <- read.csv('/kaggle/input/competicao-estatistica-iii/train.csv', sep = ',')\n",
-    "dados_treino <- dados_treino[,-1]\n"
+    "dados_treino <- dados_treino[,-1]"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "d67d0252",
+   "id": "a3a1e3af",
    "metadata": {
     "papermill": {
-     "duration": 0.017657,
-     "end_time": "2025-06-19T21:05:47.599563",
+     "duration": 0.027177,
+     "end_time": "2025-06-19T22:53:24.710724",
      "exception": false,
-     "start_time": "2025-06-19T21:05:47.581906",
+     "start_time": "2025-06-19T22:53:24.683547",
      "status": "completed"
     },
     "tags": []
@@ -181,19 +181,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "224688c4",
+   "id": "9c56bac4",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:47.636242Z",
-     "iopub.status.busy": "2025-06-19T21:05:47.634957Z",
-     "iopub.status.idle": "2025-06-19T21:05:47.659340Z",
-     "shell.execute_reply": "2025-06-19T21:05:47.658229Z"
+     "iopub.execute_input": "2025-06-19T22:53:24.802228Z",
+     "iopub.status.busy": "2025-06-19T22:53:24.800614Z",
+     "iopub.status.idle": "2025-06-19T22:53:24.835460Z",
+     "shell.execute_reply": "2025-06-19T22:53:24.833620Z"
     },
     "papermill": {
-     "duration": 0.044661,
-     "end_time": "2025-06-19T21:05:47.660914",
+     "duration": 0.066119,
+     "end_time": "2025-06-19T22:53:24.837826",
      "exception": false,
-     "start_time": "2025-06-19T21:05:47.616253",
+     "start_time": "2025-06-19T22:53:24.771707",
      "status": "completed"
     },
     "tags": []
@@ -268,19 +268,18 @@
     }
    ],
    "source": [
-    "head(dados_treino)\n",
-    "\n"
+    "head(dados_treino)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "9c096c31",
+   "id": "2559f342",
    "metadata": {
     "papermill": {
-     "duration": 0.04604,
-     "end_time": "2025-06-19T21:05:47.723752",
+     "duration": 0.027181,
+     "end_time": "2025-06-19T22:53:24.892542",
      "exception": false,
-     "start_time": "2025-06-19T21:05:47.677712",
+     "start_time": "2025-06-19T22:53:24.865361",
      "status": "completed"
     },
     "tags": []
@@ -292,19 +291,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "de3a9841",
+   "id": "7b60018f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:47.761633Z",
-     "iopub.status.busy": "2025-06-19T21:05:47.760379Z",
-     "iopub.status.idle": "2025-06-19T21:05:47.785960Z",
-     "shell.execute_reply": "2025-06-19T21:05:47.784437Z"
+     "iopub.execute_input": "2025-06-19T22:53:24.950715Z",
+     "iopub.status.busy": "2025-06-19T22:53:24.949131Z",
+     "iopub.status.idle": "2025-06-19T22:53:24.982172Z",
+     "shell.execute_reply": "2025-06-19T22:53:24.979659Z"
     },
     "papermill": {
-     "duration": 0.046373,
-     "end_time": "2025-06-19T21:05:47.787584",
+     "duration": 0.065307,
+     "end_time": "2025-06-19T22:53:24.985038",
      "exception": false,
-     "start_time": "2025-06-19T21:05:47.741211",
+     "start_time": "2025-06-19T22:53:24.919731",
      "status": "completed"
     },
     "tags": []
@@ -328,19 +327,18 @@
     }
    ],
    "source": [
-    "str(dados_treino)\n",
-    "\n"
+    "str(dados_treino)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "c0914455",
+   "id": "77c4728e",
    "metadata": {
     "papermill": {
-     "duration": 0.016953,
-     "end_time": "2025-06-19T21:05:47.822087",
+     "duration": 0.027717,
+     "end_time": "2025-06-19T22:53:25.040724",
      "exception": false,
-     "start_time": "2025-06-19T21:05:47.805134",
+     "start_time": "2025-06-19T22:53:25.013007",
      "status": "completed"
     },
     "tags": []
@@ -353,19 +351,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "55206085",
+   "id": "8aa21fcf",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:47.859506Z",
-     "iopub.status.busy": "2025-06-19T21:05:47.858178Z",
-     "iopub.status.idle": "2025-06-19T21:05:47.879508Z",
-     "shell.execute_reply": "2025-06-19T21:05:47.878335Z"
+     "iopub.execute_input": "2025-06-19T22:53:25.099997Z",
+     "iopub.status.busy": "2025-06-19T22:53:25.098444Z",
+     "iopub.status.idle": "2025-06-19T22:53:25.130003Z",
+     "shell.execute_reply": "2025-06-19T22:53:25.127769Z"
     },
     "papermill": {
-     "duration": 0.041769,
-     "end_time": "2025-06-19T21:05:47.881045",
+     "duration": 0.064048,
+     "end_time": "2025-06-19T22:53:25.132895",
      "exception": false,
-     "start_time": "2025-06-19T21:05:47.839276",
+     "start_time": "2025-06-19T22:53:25.068847",
      "status": "completed"
     },
     "tags": []
@@ -402,19 +400,18 @@
     }
    ],
    "source": [
-    "summary(dados_treino)\n",
-    "\n"
+    "summary(dados_treino)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "6cb47ae9",
+   "id": "a62ebb6b",
    "metadata": {
     "papermill": {
-     "duration": 0.016492,
-     "end_time": "2025-06-19T21:05:47.914659",
+     "duration": 0.027276,
+     "end_time": "2025-06-19T22:53:25.187541",
      "exception": false,
-     "start_time": "2025-06-19T21:05:47.898167",
+     "start_time": "2025-06-19T22:53:25.160265",
      "status": "completed"
     },
     "tags": []
@@ -428,19 +425,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "af134e0f",
+   "id": "8c181646",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:47.951052Z",
-     "iopub.status.busy": "2025-06-19T21:05:47.949704Z",
-     "iopub.status.idle": "2025-06-19T21:05:48.042429Z",
-     "shell.execute_reply": "2025-06-19T21:05:48.041198Z"
+     "iopub.execute_input": "2025-06-19T22:53:25.245972Z",
+     "iopub.status.busy": "2025-06-19T22:53:25.244343Z",
+     "iopub.status.idle": "2025-06-19T22:53:25.385787Z",
+     "shell.execute_reply": "2025-06-19T22:53:25.383283Z"
     },
     "papermill": {
-     "duration": 0.113159,
-     "end_time": "2025-06-19T21:05:48.044388",
+     "duration": 0.174096,
+     "end_time": "2025-06-19T22:53:25.388948",
      "exception": false,
-     "start_time": "2025-06-19T21:05:47.931229",
+     "start_time": "2025-06-19T22:53:25.214852",
      "status": "completed"
     },
     "tags": []
@@ -460,19 +457,18 @@
     }
    ],
    "source": [
-    "dados_treino[is.na(dados_treino)]\n",
-    "\n"
+    "dados_treino[is.na(dados_treino)]"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "fb81ec63",
+   "id": "02dce266",
    "metadata": {
     "papermill": {
-     "duration": 0.017622,
-     "end_time": "2025-06-19T21:05:48.079906",
+     "duration": 0.027483,
+     "end_time": "2025-06-19T22:53:25.444055",
      "exception": false,
-     "start_time": "2025-06-19T21:05:48.062284",
+     "start_time": "2025-06-19T22:53:25.416572",
      "status": "completed"
     },
     "tags": []
@@ -489,19 +485,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "95a23921",
+   "id": "d960ff5f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:48.117252Z",
-     "iopub.status.busy": "2025-06-19T21:05:48.115957Z",
-     "iopub.status.idle": "2025-06-19T21:05:48.134397Z",
-     "shell.execute_reply": "2025-06-19T21:05:48.133042Z"
+     "iopub.execute_input": "2025-06-19T22:53:25.503530Z",
+     "iopub.status.busy": "2025-06-19T22:53:25.501772Z",
+     "iopub.status.idle": "2025-06-19T22:53:25.527067Z",
+     "shell.execute_reply": "2025-06-19T22:53:25.525301Z"
     },
     "papermill": {
-     "duration": 0.040423,
-     "end_time": "2025-06-19T21:05:48.137306",
+     "duration": 0.058431,
+     "end_time": "2025-06-19T22:53:25.530291",
      "exception": false,
-     "start_time": "2025-06-19T21:05:48.096883",
+     "start_time": "2025-06-19T22:53:25.471860",
      "status": "completed"
     },
     "tags": []
@@ -616,18 +612,18 @@
     "  theme(\n",
     "    axis.title = element_text()\n",
     "  )\n",
-    "}\n"
+    "}"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "e0c9442b",
+   "id": "ac261893",
    "metadata": {
     "papermill": {
-     "duration": 0.016947,
-     "end_time": "2025-06-19T21:05:48.172198",
+     "duration": 0.028422,
+     "end_time": "2025-06-19T22:53:25.586338",
      "exception": false,
-     "start_time": "2025-06-19T21:05:48.155251",
+     "start_time": "2025-06-19T22:53:25.557916",
      "status": "completed"
     },
     "tags": []
@@ -640,19 +636,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "9707d69d",
+   "id": "8bbf0964",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:48.208758Z",
-     "iopub.status.busy": "2025-06-19T21:05:48.207485Z",
-     "iopub.status.idle": "2025-06-19T21:05:48.731931Z",
-     "shell.execute_reply": "2025-06-19T21:05:48.729975Z"
+     "iopub.execute_input": "2025-06-19T22:53:25.646497Z",
+     "iopub.status.busy": "2025-06-19T22:53:25.644828Z",
+     "iopub.status.idle": "2025-06-19T22:53:26.373702Z",
+     "shell.execute_reply": "2025-06-19T22:53:26.370905Z"
     },
     "papermill": {
-     "duration": 0.545377,
-     "end_time": "2025-06-19T21:05:48.734208",
+     "duration": 0.76289,
+     "end_time": "2025-06-19T22:53:26.376804",
      "exception": false,
-     "start_time": "2025-06-19T21:05:48.188831",
+     "start_time": "2025-06-19T22:53:25.613914",
      "status": "completed"
     },
     "tags": []
@@ -678,18 +674,18 @@
     "labs(\n",
     "title = \"Distribuição por sexo\"\n",
     ") +\n",
-    "theme_fivethirtyeight()\n"
+    "theme_fivethirtyeight()"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "294808bd",
+   "id": "2375ed48",
    "metadata": {
     "papermill": {
-     "duration": 0.017048,
-     "end_time": "2025-06-19T21:05:48.769197",
+     "duration": 0.03757,
+     "end_time": "2025-06-19T22:53:26.452408",
      "exception": false,
-     "start_time": "2025-06-19T21:05:48.752149",
+     "start_time": "2025-06-19T22:53:26.414838",
      "status": "completed"
     },
     "tags": []
@@ -702,19 +698,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "7ee3555d",
+   "id": "d3ef13d6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:48.807365Z",
-     "iopub.status.busy": "2025-06-19T21:05:48.806192Z",
-     "iopub.status.idle": "2025-06-19T21:05:48.821144Z",
-     "shell.execute_reply": "2025-06-19T21:05:48.819814Z"
+     "iopub.execute_input": "2025-06-19T22:53:26.512793Z",
+     "iopub.status.busy": "2025-06-19T22:53:26.511139Z",
+     "iopub.status.idle": "2025-06-19T22:53:26.531894Z",
+     "shell.execute_reply": "2025-06-19T22:53:26.529641Z"
     },
     "papermill": {
-     "duration": 0.03714,
-     "end_time": "2025-06-19T21:05:48.823198",
+     "duration": 0.053846,
+     "end_time": "2025-06-19T22:53:26.534811",
      "exception": false,
-     "start_time": "2025-06-19T21:05:48.786058",
+     "start_time": "2025-06-19T22:53:26.480965",
      "status": "completed"
     },
     "tags": []
@@ -733,19 +729,18 @@
     }
    ],
    "source": [
-    "table(dados_treino$Sex)/nrow(dados_treino)*100\n",
-    "\n"
+    "table(dados_treino$Sex)/nrow(dados_treino)*100"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "bc231c4a",
+   "id": "c04221af",
    "metadata": {
     "papermill": {
-     "duration": 0.017522,
-     "end_time": "2025-06-19T21:05:48.858417",
+     "duration": 0.029082,
+     "end_time": "2025-06-19T22:53:26.592025",
      "exception": false,
-     "start_time": "2025-06-19T21:05:48.840895",
+     "start_time": "2025-06-19T22:53:26.562943",
      "status": "completed"
     },
     "tags": []
@@ -758,19 +753,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "9fb200de",
+   "id": "961204cb",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:48.896201Z",
-     "iopub.status.busy": "2025-06-19T21:05:48.895037Z",
-     "iopub.status.idle": "2025-06-19T21:05:49.206641Z",
-     "shell.execute_reply": "2025-06-19T21:05:49.204729Z"
+     "iopub.execute_input": "2025-06-19T22:53:26.653078Z",
+     "iopub.status.busy": "2025-06-19T22:53:26.651525Z",
+     "iopub.status.idle": "2025-06-19T22:53:27.076593Z",
+     "shell.execute_reply": "2025-06-19T22:53:27.074778Z"
     },
     "papermill": {
-     "duration": 0.33303,
-     "end_time": "2025-06-19T21:05:49.209049",
+     "duration": 0.458573,
+     "end_time": "2025-06-19T22:53:27.078908",
      "exception": false,
-     "start_time": "2025-06-19T21:05:48.876019",
+     "start_time": "2025-06-19T22:53:26.620335",
      "status": "completed"
     },
     "tags": []
@@ -799,19 +794,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot_sex(dados_treino, 9, \"Idade\", \"Boxplot do Sexo em relação à Idade\")\n",
-    "\n"
+    "grafico_boxplot_sex(dados_treino, 9, \"Idade\", \"Boxplot do Sexo em relação à Idade\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "c6c7445b",
+   "id": "851c8081",
    "metadata": {
     "papermill": {
-     "duration": 0.018629,
-     "end_time": "2025-06-19T21:05:49.246080",
+     "duration": 0.030901,
+     "end_time": "2025-06-19T22:53:27.139483",
      "exception": false,
-     "start_time": "2025-06-19T21:05:49.227451",
+     "start_time": "2025-06-19T22:53:27.108582",
      "status": "completed"
     },
     "tags": []
@@ -831,19 +825,19 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "a30fa8ca",
+   "id": "7511cce9",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:49.285881Z",
-     "iopub.status.busy": "2025-06-19T21:05:49.284735Z",
-     "iopub.status.idle": "2025-06-19T21:05:49.374946Z",
-     "shell.execute_reply": "2025-06-19T21:05:49.373096Z"
+     "iopub.execute_input": "2025-06-19T22:53:27.202693Z",
+     "iopub.status.busy": "2025-06-19T22:53:27.201019Z",
+     "iopub.status.idle": "2025-06-19T22:53:27.326953Z",
+     "shell.execute_reply": "2025-06-19T22:53:27.325216Z"
     },
     "papermill": {
-     "duration": 0.112206,
-     "end_time": "2025-06-19T21:05:49.376971",
+     "duration": 0.159377,
+     "end_time": "2025-06-19T22:53:27.329416",
      "exception": false,
-     "start_time": "2025-06-19T21:05:49.264765",
+     "start_time": "2025-06-19T22:53:27.170039",
      "status": "completed"
     },
     "tags": []
@@ -1193,19 +1187,18 @@
     }
    ],
    "source": [
-    "dados_treino[dados_treino$Sex == \"I\" | dados_treino$Sex == \"F\" | dados_treino$Sex == \"M\",][boxplot.stats(dados_treino[dados_treino$Sex == \"I\" | dados_treino$Sex == \"F\" | dados_treino$Sex == \"M\",]$Age)$out,]\n",
-    "\n"
+    "dados_treino[dados_treino$Sex == \"I\" | dados_treino$Sex == \"F\" | dados_treino$Sex == \"M\",][boxplot.stats(dados_treino[dados_treino$Sex == \"I\" | dados_treino$Sex == \"F\" | dados_treino$Sex == \"M\",]$Age)$out,]"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "3cb7ec31",
+   "id": "652c7222",
    "metadata": {
     "papermill": {
-     "duration": 0.018839,
-     "end_time": "2025-06-19T21:05:49.414566",
+     "duration": 0.030417,
+     "end_time": "2025-06-19T22:53:27.390415",
      "exception": false,
-     "start_time": "2025-06-19T21:05:49.395727",
+     "start_time": "2025-06-19T22:53:27.359998",
      "status": "completed"
     },
     "tags": []
@@ -1219,19 +1212,19 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "07cb86a4",
+   "id": "ce55898f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:49.456935Z",
-     "iopub.status.busy": "2025-06-19T21:05:49.455835Z",
-     "iopub.status.idle": "2025-06-19T21:05:49.767999Z",
-     "shell.execute_reply": "2025-06-19T21:05:49.766193Z"
+     "iopub.execute_input": "2025-06-19T22:53:27.455253Z",
+     "iopub.status.busy": "2025-06-19T22:53:27.453443Z",
+     "iopub.status.idle": "2025-06-19T22:53:27.886841Z",
+     "shell.execute_reply": "2025-06-19T22:53:27.884949Z"
     },
     "papermill": {
-     "duration": 0.336421,
-     "end_time": "2025-06-19T21:05:49.770265",
+     "duration": 0.469125,
+     "end_time": "2025-06-19T22:53:27.889378",
      "exception": false,
-     "start_time": "2025-06-19T21:05:49.433844",
+     "start_time": "2025-06-19T22:53:27.420253",
      "status": "completed"
     },
     "tags": []
@@ -1273,18 +1266,18 @@
     "grafico_dens(dados_treino[dados_treino$Sex == \"F\", ][boxplot.stats(dados_treino[dados_treino$Sex == \"F\",]$Age)$out,],\n",
     "             pos_var = 9,\n",
     "             x = \"Idade\",\n",
-    "             \"Curva de Densidade Outliers para o Sexo Feminino\")\n"
+    "             \"Curva de Densidade Outliers para o Sexo Feminino\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "8bea25b4",
+   "id": "6b85e135",
    "metadata": {
     "papermill": {
-     "duration": 0.020164,
-     "end_time": "2025-06-19T21:05:49.811119",
+     "duration": 0.031765,
+     "end_time": "2025-06-19T22:53:27.952183",
      "exception": false,
-     "start_time": "2025-06-19T21:05:49.790955",
+     "start_time": "2025-06-19T22:53:27.920418",
      "status": "completed"
     },
     "tags": []
@@ -1298,19 +1291,19 @@
   {
    "cell_type": "code",
    "execution_count": 13,
-   "id": "5850503c",
+   "id": "c1de2438",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:49.853654Z",
-     "iopub.status.busy": "2025-06-19T21:05:49.852511Z",
-     "iopub.status.idle": "2025-06-19T21:05:50.271930Z",
-     "shell.execute_reply": "2025-06-19T21:05:50.269364Z"
+     "iopub.execute_input": "2025-06-19T22:53:28.019274Z",
+     "iopub.status.busy": "2025-06-19T22:53:28.017704Z",
+     "iopub.status.idle": "2025-06-19T22:53:28.589465Z",
+     "shell.execute_reply": "2025-06-19T22:53:28.587662Z"
     },
     "papermill": {
-     "duration": 0.443888,
-     "end_time": "2025-06-19T21:05:50.275042",
+     "duration": 0.608354,
+     "end_time": "2025-06-19T22:53:28.591881",
      "exception": false,
-     "start_time": "2025-06-19T21:05:49.831154",
+     "start_time": "2025-06-19T22:53:27.983527",
      "status": "completed"
     },
     "tags": []
@@ -1352,18 +1345,18 @@
     "grafico_dens(dados_treino[dados_treino$Sex == \"M\", ][boxplot.stats(dados_treino[dados_treino$Sex == \"M\",]$Age)$out,],\n",
     "             pos_var = 9,\n",
     "             x = \"Idade\",\n",
-    "             \"Curva de Densidade Outliers para o Sexo Masculino\")\n"
+    "             \"Curva de Densidade Outliers para o Sexo Masculino\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "3f1aa4e3",
+   "id": "d1c92447",
    "metadata": {
     "papermill": {
-     "duration": 0.021945,
-     "end_time": "2025-06-19T21:05:50.319291",
+     "duration": 0.03476,
+     "end_time": "2025-06-19T22:53:28.659462",
      "exception": false,
-     "start_time": "2025-06-19T21:05:50.297346",
+     "start_time": "2025-06-19T22:53:28.624702",
      "status": "completed"
     },
     "tags": []
@@ -1379,19 +1372,19 @@
   {
    "cell_type": "code",
    "execution_count": 14,
-   "id": "0ddfa303",
+   "id": "6d7ed170",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:50.364589Z",
-     "iopub.status.busy": "2025-06-19T21:05:50.363245Z",
-     "iopub.status.idle": "2025-06-19T21:05:50.633716Z",
-     "shell.execute_reply": "2025-06-19T21:05:50.632457Z"
+     "iopub.execute_input": "2025-06-19T22:53:28.728882Z",
+     "iopub.status.busy": "2025-06-19T22:53:28.727360Z",
+     "iopub.status.idle": "2025-06-19T22:53:29.082997Z",
+     "shell.execute_reply": "2025-06-19T22:53:29.081063Z"
     },
     "papermill": {
-     "duration": 0.294772,
-     "end_time": "2025-06-19T21:05:50.635638",
+     "duration": 0.393059,
+     "end_time": "2025-06-19T22:53:29.085562",
      "exception": false,
-     "start_time": "2025-06-19T21:05:50.340866",
+     "start_time": "2025-06-19T22:53:28.692503",
      "status": "completed"
     },
     "tags": []
@@ -1433,18 +1426,18 @@
     "grafico_dens(dados_treino[dados_treino$Sex == \"I\", ][boxplot.stats(dados_treino[dados_treino$Sex == \"I\",]$Age)$out,],\n",
     "             pos_var = 9,\n",
     "             x = \"Idade\",\n",
-    "             \"Curva de Densidade Outliers para o Sexo Indeterminado\")\n"
+    "             \"Curva de Densidade Outliers para o Sexo Indeterminado\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "ec098af4",
+   "id": "d07ab21c",
    "metadata": {
     "papermill": {
-     "duration": 0.021775,
-     "end_time": "2025-06-19T21:05:50.679900",
+     "duration": 0.035933,
+     "end_time": "2025-06-19T22:53:29.155874",
      "exception": false,
-     "start_time": "2025-06-19T21:05:50.658125",
+     "start_time": "2025-06-19T22:53:29.119941",
      "status": "completed"
     },
     "tags": []
@@ -1464,19 +1457,19 @@
   {
    "cell_type": "code",
    "execution_count": 15,
-   "id": "e0be5e3d",
+   "id": "70843a7a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:50.726150Z",
-     "iopub.status.busy": "2025-06-19T21:05:50.725012Z",
-     "iopub.status.idle": "2025-06-19T21:05:51.109301Z",
-     "shell.execute_reply": "2025-06-19T21:05:51.108133Z"
+     "iopub.execute_input": "2025-06-19T22:53:29.228641Z",
+     "iopub.status.busy": "2025-06-19T22:53:29.227148Z",
+     "iopub.status.idle": "2025-06-19T22:53:29.805443Z",
+     "shell.execute_reply": "2025-06-19T22:53:29.803694Z"
     },
     "papermill": {
-     "duration": 0.409742,
-     "end_time": "2025-06-19T21:05:51.111437",
+     "duration": 0.617438,
+     "end_time": "2025-06-19T22:53:29.808055",
      "exception": false,
-     "start_time": "2025-06-19T21:05:50.701695",
+     "start_time": "2025-06-19T22:53:29.190617",
      "status": "completed"
     },
     "tags": []
@@ -1516,18 +1509,18 @@
    ],
    "source": [
     "grafico_dens(dados_treino[dados_treino$Sex == \"F\",],\n",
-    "             9, \"Idade\", \"Distribuição de Sexo Feminino por Idade\")\n"
+    "             9, \"Idade\", \"Distribuição de Sexo Feminino por Idade\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "f574c326",
+   "id": "80612047",
    "metadata": {
     "papermill": {
-     "duration": 0.02351,
-     "end_time": "2025-06-19T21:05:51.159441",
+     "duration": 0.038329,
+     "end_time": "2025-06-19T22:53:29.882227",
      "exception": false,
-     "start_time": "2025-06-19T21:05:51.135931",
+     "start_time": "2025-06-19T22:53:29.843898",
      "status": "completed"
     },
     "tags": []
@@ -1543,19 +1536,19 @@
   {
    "cell_type": "code",
    "execution_count": 16,
-   "id": "179b3203",
+   "id": "0a1e2963",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:51.208710Z",
-     "iopub.status.busy": "2025-06-19T21:05:51.207423Z",
-     "iopub.status.idle": "2025-06-19T21:05:51.635516Z",
-     "shell.execute_reply": "2025-06-19T21:05:51.634278Z"
+     "iopub.execute_input": "2025-06-19T22:53:29.955776Z",
+     "iopub.status.busy": "2025-06-19T22:53:29.954220Z",
+     "iopub.status.idle": "2025-06-19T22:53:30.562927Z",
+     "shell.execute_reply": "2025-06-19T22:53:30.561088Z"
     },
     "papermill": {
-     "duration": 0.454676,
-     "end_time": "2025-06-19T21:05:51.637499",
+     "duration": 0.648054,
+     "end_time": "2025-06-19T22:53:30.565417",
      "exception": false,
-     "start_time": "2025-06-19T21:05:51.182823",
+     "start_time": "2025-06-19T22:53:29.917363",
      "status": "completed"
     },
     "tags": []
@@ -1595,18 +1588,18 @@
    ],
    "source": [
     "grafico_dens(dados_treino[dados_treino$Sex == \"M\",],\n",
-    "             9, \"Idade\", \"Distribuição de Sexo Masculino por Idade\")\n"
+    "             9, \"Idade\", \"Distribuição de Sexo Masculino por Idade\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "cfb68a88",
+   "id": "de8f78bb",
    "metadata": {
     "papermill": {
-     "duration": 0.024261,
-     "end_time": "2025-06-19T21:05:51.686311",
+     "duration": 0.036742,
+     "end_time": "2025-06-19T22:53:30.638811",
      "exception": false,
-     "start_time": "2025-06-19T21:05:51.662050",
+     "start_time": "2025-06-19T22:53:30.602069",
      "status": "completed"
     },
     "tags": []
@@ -1620,19 +1613,19 @@
   {
    "cell_type": "code",
    "execution_count": 17,
-   "id": "82c05e68",
+   "id": "3d69925d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:51.737911Z",
-     "iopub.status.busy": "2025-06-19T21:05:51.736609Z",
-     "iopub.status.idle": "2025-06-19T21:05:52.131148Z",
-     "shell.execute_reply": "2025-06-19T21:05:52.129702Z"
+     "iopub.execute_input": "2025-06-19T22:53:30.715944Z",
+     "iopub.status.busy": "2025-06-19T22:53:30.714388Z",
+     "iopub.status.idle": "2025-06-19T22:53:31.288931Z",
+     "shell.execute_reply": "2025-06-19T22:53:31.286145Z"
     },
     "papermill": {
-     "duration": 0.422102,
-     "end_time": "2025-06-19T21:05:52.133010",
+     "duration": 0.615765,
+     "end_time": "2025-06-19T22:53:31.292046",
      "exception": false,
-     "start_time": "2025-06-19T21:05:51.710908",
+     "start_time": "2025-06-19T22:53:30.676281",
      "status": "completed"
     },
     "tags": []
@@ -1672,18 +1665,18 @@
    ],
    "source": [
     "grafico_dens(dados_treino[dados_treino$Sex == \"I\",],\n",
-    "             9, \"Idade\", \"Distribuição de Sexo Indeterminado por Idade\")\n"
+    "             9, \"Idade\", \"Distribuição de Sexo Indeterminado por Idade\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "ec50d234",
+   "id": "1571db60",
    "metadata": {
     "papermill": {
-     "duration": 0.024551,
-     "end_time": "2025-06-19T21:05:52.182871",
+     "duration": 0.037581,
+     "end_time": "2025-06-19T22:53:31.368423",
      "exception": false,
-     "start_time": "2025-06-19T21:05:52.158320",
+     "start_time": "2025-06-19T22:53:31.330842",
      "status": "completed"
     },
     "tags": []
@@ -1699,19 +1692,19 @@
   {
    "cell_type": "code",
    "execution_count": 18,
-   "id": "7c049e2e",
+   "id": "a1994993",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:52.238173Z",
-     "iopub.status.busy": "2025-06-19T21:05:52.236851Z",
-     "iopub.status.idle": "2025-06-19T21:05:52.709584Z",
-     "shell.execute_reply": "2025-06-19T21:05:52.708251Z"
+     "iopub.execute_input": "2025-06-19T22:53:31.446566Z",
+     "iopub.status.busy": "2025-06-19T22:53:31.444995Z",
+     "iopub.status.idle": "2025-06-19T22:53:32.055353Z",
+     "shell.execute_reply": "2025-06-19T22:53:32.053444Z"
     },
     "papermill": {
-     "duration": 0.501937,
-     "end_time": "2025-06-19T21:05:52.711259",
+     "duration": 0.651922,
+     "end_time": "2025-06-19T22:53:32.057878",
      "exception": false,
-     "start_time": "2025-06-19T21:05:52.209322",
+     "start_time": "2025-06-19T22:53:31.405956",
      "status": "completed"
     },
     "tags": []
@@ -1753,18 +1746,18 @@
     "dados_treino$log_age <- log10(dados_treino$Age)\n",
     "\n",
     "grafico_dens(dados_treino[dados_treino$Sex == \"F\",],\n",
-    "             10, \"Idade\", \"Distribuição de Sexo Feminino por Log_Idade\")\n"
+    "             10, \"Idade\", \"Distribuição de Sexo Feminino por Log_Idade\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "90924661",
+   "id": "057e1a6d",
    "metadata": {
     "papermill": {
-     "duration": 0.026599,
-     "end_time": "2025-06-19T21:05:52.765524",
+     "duration": 0.041659,
+     "end_time": "2025-06-19T22:53:32.141257",
      "exception": false,
-     "start_time": "2025-06-19T21:05:52.738925",
+     "start_time": "2025-06-19T22:53:32.099598",
      "status": "completed"
     },
     "tags": []
@@ -1778,19 +1771,19 @@
   {
    "cell_type": "code",
    "execution_count": 19,
-   "id": "d8a04edf",
+   "id": "38adcc54",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:52.821619Z",
-     "iopub.status.busy": "2025-06-19T21:05:52.820369Z",
-     "iopub.status.idle": "2025-06-19T21:05:53.239549Z",
-     "shell.execute_reply": "2025-06-19T21:05:53.238138Z"
+     "iopub.execute_input": "2025-06-19T22:53:32.226005Z",
+     "iopub.status.busy": "2025-06-19T22:53:32.224340Z",
+     "iopub.status.idle": "2025-06-19T22:53:32.832323Z",
+     "shell.execute_reply": "2025-06-19T22:53:32.830338Z"
     },
     "papermill": {
-     "duration": 0.449036,
-     "end_time": "2025-06-19T21:05:53.241304",
+     "duration": 0.653095,
+     "end_time": "2025-06-19T22:53:32.834756",
      "exception": false,
-     "start_time": "2025-06-19T21:05:52.792268",
+     "start_time": "2025-06-19T22:53:32.181661",
      "status": "completed"
     },
     "tags": []
@@ -1830,18 +1823,18 @@
    ],
    "source": [
     "grafico_dens(dados_treino[dados_treino$Sex == \"M\",],\n",
-    "             10, \"Idade\", \"Distribuição de Sexo Masculino por Log_Idade\")\n"
+    "             10, \"Idade\", \"Distribuição de Sexo Masculino por Log_Idade\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "7b6e5822",
+   "id": "a6557816",
    "metadata": {
     "papermill": {
-     "duration": 0.025932,
-     "end_time": "2025-06-19T21:05:53.294612",
+     "duration": 0.040341,
+     "end_time": "2025-06-19T22:53:32.916642",
      "exception": false,
-     "start_time": "2025-06-19T21:05:53.268680",
+     "start_time": "2025-06-19T22:53:32.876301",
      "status": "completed"
     },
     "tags": []
@@ -1855,19 +1848,19 @@
   {
    "cell_type": "code",
    "execution_count": 20,
-   "id": "4db54889",
+   "id": "6e8afd03",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:53.350563Z",
-     "iopub.status.busy": "2025-06-19T21:05:53.349341Z",
-     "iopub.status.idle": "2025-06-19T21:05:53.750917Z",
-     "shell.execute_reply": "2025-06-19T21:05:53.748920Z"
+     "iopub.execute_input": "2025-06-19T22:53:33.000805Z",
+     "iopub.status.busy": "2025-06-19T22:53:32.999085Z",
+     "iopub.status.idle": "2025-06-19T22:53:33.580988Z",
+     "shell.execute_reply": "2025-06-19T22:53:33.579056Z"
     },
     "papermill": {
-     "duration": 0.43302,
-     "end_time": "2025-06-19T21:05:53.753894",
+     "duration": 0.62664,
+     "end_time": "2025-06-19T22:53:33.583494",
      "exception": false,
-     "start_time": "2025-06-19T21:05:53.320874",
+     "start_time": "2025-06-19T22:53:32.956854",
      "status": "completed"
     },
     "tags": []
@@ -1907,18 +1900,18 @@
    ],
    "source": [
     "grafico_dens(dados_treino[dados_treino$Sex == \"I\",],\n",
-    "             10, \"Idade\", \"Distribuição de Sexo Indeterminado por Log_Idade\")\n"
+    "             10, \"Idade\", \"Distribuição de Sexo Indeterminado por Log_Idade\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "f6790028",
+   "id": "f5e13f89",
    "metadata": {
     "papermill": {
-     "duration": 0.027941,
-     "end_time": "2025-06-19T21:05:53.812421",
+     "duration": 0.042335,
+     "end_time": "2025-06-19T22:53:33.669082",
      "exception": false,
-     "start_time": "2025-06-19T21:05:53.784480",
+     "start_time": "2025-06-19T22:53:33.626747",
      "status": "completed"
     },
     "tags": []
@@ -1932,19 +1925,19 @@
   {
    "cell_type": "code",
    "execution_count": 21,
-   "id": "981274f0",
+   "id": "12d032d7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:53.872066Z",
-     "iopub.status.busy": "2025-06-19T21:05:53.870980Z",
-     "iopub.status.idle": "2025-06-19T21:05:54.128977Z",
-     "shell.execute_reply": "2025-06-19T21:05:54.127125Z"
+     "iopub.execute_input": "2025-06-19T22:53:33.757962Z",
+     "iopub.status.busy": "2025-06-19T22:53:33.756378Z",
+     "iopub.status.idle": "2025-06-19T22:53:34.105976Z",
+     "shell.execute_reply": "2025-06-19T22:53:34.104225Z"
     },
     "papermill": {
-     "duration": 0.290443,
-     "end_time": "2025-06-19T21:05:54.131188",
+     "duration": 0.396393,
+     "end_time": "2025-06-19T22:53:34.108211",
      "exception": false,
-     "start_time": "2025-06-19T21:05:53.840745",
+     "start_time": "2025-06-19T22:53:33.711818",
      "status": "completed"
     },
     "tags": []
@@ -1973,19 +1966,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot_sex(dados_treino, 9, \"Log Idade\", \"boxplot do Sexo em relação à Log Idade\")\n",
-    "\n"
+    "grafico_boxplot_sex(dados_treino, 9, \"Log Idade\", \"boxplot do Sexo em relação à Log Idade\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "e4ac1c2c",
+   "id": "7879cb3e",
    "metadata": {
     "papermill": {
-     "duration": 0.028018,
-     "end_time": "2025-06-19T21:05:54.187316",
+     "duration": 0.041725,
+     "end_time": "2025-06-19T22:53:34.192893",
      "exception": false,
-     "start_time": "2025-06-19T21:05:54.159298",
+     "start_time": "2025-06-19T22:53:34.151168",
      "status": "completed"
     },
     "tags": []
@@ -2007,19 +1999,19 @@
   {
    "cell_type": "code",
    "execution_count": 22,
-   "id": "92c7986d",
+   "id": "2b6eb1c6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:54.246688Z",
-     "iopub.status.busy": "2025-06-19T21:05:54.245393Z",
-     "iopub.status.idle": "2025-06-19T21:05:54.956920Z",
-     "shell.execute_reply": "2025-06-19T21:05:54.954826Z"
+     "iopub.execute_input": "2025-06-19T22:53:34.280483Z",
+     "iopub.status.busy": "2025-06-19T22:53:34.278830Z",
+     "iopub.status.idle": "2025-06-19T22:53:35.417467Z",
+     "shell.execute_reply": "2025-06-19T22:53:35.415650Z"
     },
     "papermill": {
-     "duration": 0.744051,
-     "end_time": "2025-06-19T21:05:54.959312",
+     "duration": 1.186994,
+     "end_time": "2025-06-19T22:53:35.421900",
      "exception": false,
-     "start_time": "2025-06-19T21:05:54.215261",
+     "start_time": "2025-06-19T22:53:34.234906",
      "status": "completed"
     },
     "tags": []
@@ -2058,19 +2050,18 @@
     }
    ],
    "source": [
-    "grafico_dens(dados_treino, 2, \"Idade\", \"Curva de densidade para Comprimento\")\n",
-    "\n"
+    "grafico_dens(dados_treino, 2, \"Idade\", \"Curva de densidade para Comprimento\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "03f145a1",
+   "id": "c1c41cef",
    "metadata": {
     "papermill": {
-     "duration": 0.029364,
-     "end_time": "2025-06-19T21:05:55.019903",
+     "duration": 0.044876,
+     "end_time": "2025-06-19T22:53:35.517517",
      "exception": false,
-     "start_time": "2025-06-19T21:05:54.990539",
+     "start_time": "2025-06-19T22:53:35.472641",
      "status": "completed"
     },
     "tags": []
@@ -2084,19 +2075,19 @@
   {
    "cell_type": "code",
    "execution_count": 23,
-   "id": "67109cb3",
+   "id": "ba6480f5",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:55.081843Z",
-     "iopub.status.busy": "2025-06-19T21:05:55.080593Z",
-     "iopub.status.idle": "2025-06-19T21:05:55.101144Z",
-     "shell.execute_reply": "2025-06-19T21:05:55.099925Z"
+     "iopub.execute_input": "2025-06-19T22:53:35.610615Z",
+     "iopub.status.busy": "2025-06-19T22:53:35.608503Z",
+     "iopub.status.idle": "2025-06-19T22:53:35.642610Z",
+     "shell.execute_reply": "2025-06-19T22:53:35.640187Z"
     },
     "papermill": {
-     "duration": 0.053614,
-     "end_time": "2025-06-19T21:05:55.102827",
+     "duration": 0.083728,
+     "end_time": "2025-06-19T22:53:35.645734",
      "exception": false,
-     "start_time": "2025-06-19T21:05:55.049213",
+     "start_time": "2025-06-19T22:53:35.562006",
      "status": "completed"
     },
     "tags": []
@@ -2152,18 +2143,18 @@
    "source": [
     "summary(dados_treino$Length)\n",
     "sd(dados_treino$Length)\n",
-    "IQR(dados_treino$Length)\n"
+    "IQR(dados_treino$Length)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "ba6a5a77",
+   "id": "e3a9b309",
    "metadata": {
     "papermill": {
-     "duration": 0.029961,
-     "end_time": "2025-06-19T21:05:55.163095",
+     "duration": 0.044282,
+     "end_time": "2025-06-19T22:53:35.735940",
      "exception": false,
-     "start_time": "2025-06-19T21:05:55.133134",
+     "start_time": "2025-06-19T22:53:35.691658",
      "status": "completed"
     },
     "tags": []
@@ -2176,19 +2167,19 @@
   {
    "cell_type": "code",
    "execution_count": 24,
-   "id": "9bc31c07",
+   "id": "3941828f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:55.226747Z",
-     "iopub.status.busy": "2025-06-19T21:05:55.225480Z",
-     "iopub.status.idle": "2025-06-19T21:05:55.429719Z",
-     "shell.execute_reply": "2025-06-19T21:05:55.428465Z"
+     "iopub.execute_input": "2025-06-19T22:53:35.828497Z",
+     "iopub.status.busy": "2025-06-19T22:53:35.826766Z",
+     "iopub.status.idle": "2025-06-19T22:53:36.117392Z",
+     "shell.execute_reply": "2025-06-19T22:53:36.114547Z"
     },
     "papermill": {
-     "duration": 0.238727,
-     "end_time": "2025-06-19T21:05:55.431596",
+     "duration": 0.340678,
+     "end_time": "2025-06-19T22:53:36.120427",
      "exception": false,
-     "start_time": "2025-06-19T21:05:55.192869",
+     "start_time": "2025-06-19T22:53:35.779749",
      "status": "completed"
     },
     "tags": []
@@ -2217,19 +2208,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot(dados_treino, 2, \"Comprimento\", \"Gráfico de Boxplot para Comprimento\")\n",
-    "\n"
+    "grafico_boxplot(dados_treino, 2, \"Comprimento\", \"Gráfico de Boxplot para Comprimento\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "3e583fc8",
+   "id": "5a77085f",
    "metadata": {
     "papermill": {
-     "duration": 0.029711,
-     "end_time": "2025-06-19T21:05:55.492501",
+     "duration": 0.045483,
+     "end_time": "2025-06-19T22:53:36.214450",
      "exception": false,
-     "start_time": "2025-06-19T21:05:55.462790",
+     "start_time": "2025-06-19T22:53:36.168967",
      "status": "completed"
     },
     "tags": []
@@ -2242,19 +2232,19 @@
   {
    "cell_type": "code",
    "execution_count": 25,
-   "id": "5c74a872",
+   "id": "e2cd5115",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:55.555842Z",
-     "iopub.status.busy": "2025-06-19T21:05:55.554617Z",
-     "iopub.status.idle": "2025-06-19T21:05:55.829833Z",
-     "shell.execute_reply": "2025-06-19T21:05:55.828546Z"
+     "iopub.execute_input": "2025-06-19T22:53:36.342775Z",
+     "iopub.status.busy": "2025-06-19T22:53:36.341003Z",
+     "iopub.status.idle": "2025-06-19T22:53:36.718045Z",
+     "shell.execute_reply": "2025-06-19T22:53:36.716137Z"
     },
     "papermill": {
-     "duration": 0.309318,
-     "end_time": "2025-06-19T21:05:55.831547",
+     "duration": 0.45089,
+     "end_time": "2025-06-19T22:53:36.720370",
      "exception": false,
-     "start_time": "2025-06-19T21:05:55.522229",
+     "start_time": "2025-06-19T22:53:36.269480",
      "status": "completed"
     },
     "tags": []
@@ -2294,18 +2284,18 @@
    ],
    "source": [
     "grafico_dens(dados_treino[dados_treino$Length %in% boxplot.stats(dados_treino$Length)$out, ],\n",
-    "             2, \"Comprimento\", \"Densidade dos outliers do Comprimento\")\n"
+    "             2, \"Comprimento\", \"Densidade dos outliers do Comprimento\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "5c62bf4f",
+   "id": "de8f3c97",
    "metadata": {
     "papermill": {
-     "duration": 0.031408,
-     "end_time": "2025-06-19T21:05:55.895063",
+     "duration": 0.046696,
+     "end_time": "2025-06-19T22:53:36.814544",
      "exception": false,
-     "start_time": "2025-06-19T21:05:55.863655",
+     "start_time": "2025-06-19T22:53:36.767848",
      "status": "completed"
     },
     "tags": []
@@ -2319,19 +2309,19 @@
   {
    "cell_type": "code",
    "execution_count": 26,
-   "id": "36dd8b21",
+   "id": "fbedba6f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:55.961421Z",
-     "iopub.status.busy": "2025-06-19T21:05:55.960164Z",
-     "iopub.status.idle": "2025-06-19T21:05:56.643096Z",
-     "shell.execute_reply": "2025-06-19T21:05:56.641614Z"
+     "iopub.execute_input": "2025-06-19T22:53:36.910411Z",
+     "iopub.status.busy": "2025-06-19T22:53:36.908647Z",
+     "iopub.status.idle": "2025-06-19T22:53:38.007347Z",
+     "shell.execute_reply": "2025-06-19T22:53:38.005365Z"
     },
     "papermill": {
-     "duration": 0.718812,
-     "end_time": "2025-06-19T21:05:56.645345",
+     "duration": 1.150067,
+     "end_time": "2025-06-19T22:53:38.010398",
      "exception": false,
-     "start_time": "2025-06-19T21:05:55.926533",
+     "start_time": "2025-06-19T22:53:36.860331",
      "status": "completed"
     },
     "tags": []
@@ -2360,19 +2350,18 @@
     }
    ],
    "source": [
-    "grafico_disp(dados_treino, 2, 'Comprimento', \"Relação de Comprimento com Idade\")\n",
-    "\n"
+    "grafico_disp(dados_treino, 2, 'Comprimento', \"Relação de Comprimento com Idade\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "e5d3b512",
+   "id": "0fb94901",
    "metadata": {
     "papermill": {
-     "duration": 0.034772,
-     "end_time": "2025-06-19T21:05:56.714472",
+     "duration": 0.048093,
+     "end_time": "2025-06-19T22:53:38.108389",
      "exception": false,
-     "start_time": "2025-06-19T21:05:56.679700",
+     "start_time": "2025-06-19T22:53:38.060296",
      "status": "completed"
     },
     "tags": []
@@ -2386,19 +2375,19 @@
   {
    "cell_type": "code",
    "execution_count": 27,
-   "id": "77226cb2",
+   "id": "b0895676",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:56.784774Z",
-     "iopub.status.busy": "2025-06-19T21:05:56.783395Z",
-     "iopub.status.idle": "2025-06-19T21:05:57.445456Z",
-     "shell.execute_reply": "2025-06-19T21:05:57.444020Z"
+     "iopub.execute_input": "2025-06-19T22:53:38.209940Z",
+     "iopub.status.busy": "2025-06-19T22:53:38.208256Z",
+     "iopub.status.idle": "2025-06-19T22:53:39.270291Z",
+     "shell.execute_reply": "2025-06-19T22:53:39.268424Z"
     },
     "papermill": {
-     "duration": 0.69899,
-     "end_time": "2025-06-19T21:05:57.447386",
+     "duration": 1.114853,
+     "end_time": "2025-06-19T22:53:39.273093",
      "exception": false,
-     "start_time": "2025-06-19T21:05:56.748396",
+     "start_time": "2025-06-19T22:53:38.158240",
      "status": "completed"
     },
     "tags": []
@@ -2431,18 +2420,18 @@
     "  theme_fivethirtyeight() +\n",
     "  theme(\n",
     "  axis.title = element_text()\n",
-    ")\n"
+    ")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "0502b0c8",
+   "id": "cec84bbc",
    "metadata": {
     "papermill": {
-     "duration": 0.035385,
-     "end_time": "2025-06-19T21:05:57.518638",
+     "duration": 0.049169,
+     "end_time": "2025-06-19T22:53:39.373563",
      "exception": false,
-     "start_time": "2025-06-19T21:05:57.483253",
+     "start_time": "2025-06-19T22:53:39.324394",
      "status": "completed"
     },
     "tags": []
@@ -2456,19 +2445,19 @@
   {
    "cell_type": "code",
    "execution_count": 28,
-   "id": "1e2c6573",
+   "id": "d31bb005",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:57.596844Z",
-     "iopub.status.busy": "2025-06-19T21:05:57.595205Z",
-     "iopub.status.idle": "2025-06-19T21:05:57.825703Z",
-     "shell.execute_reply": "2025-06-19T21:05:57.824498Z"
+     "iopub.execute_input": "2025-06-19T22:53:39.475765Z",
+     "iopub.status.busy": "2025-06-19T22:53:39.474096Z",
+     "iopub.status.idle": "2025-06-19T22:53:39.803009Z",
+     "shell.execute_reply": "2025-06-19T22:53:39.801102Z"
     },
     "papermill": {
-     "duration": 0.274756,
-     "end_time": "2025-06-19T21:05:57.827602",
+     "duration": 0.382946,
+     "end_time": "2025-06-19T22:53:39.805515",
      "exception": false,
-     "start_time": "2025-06-19T21:05:57.552846",
+     "start_time": "2025-06-19T22:53:39.422569",
      "status": "completed"
     },
     "tags": []
@@ -2497,19 +2486,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot_sex(dados_treino, 2, \"Comprimento\", \"Boxplot do Sexo em relação ao Comprimento\" )\n",
-    "\n"
+    "grafico_boxplot_sex(dados_treino, 2, \"Comprimento\", \"Boxplot do Sexo em relação ao Comprimento\" )"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "2b228845",
+   "id": "83f6ea40",
    "metadata": {
     "papermill": {
-     "duration": 0.035956,
-     "end_time": "2025-06-19T21:05:57.900898",
+     "duration": 0.049946,
+     "end_time": "2025-06-19T22:53:39.907972",
      "exception": false,
-     "start_time": "2025-06-19T21:05:57.864942",
+     "start_time": "2025-06-19T22:53:39.858026",
      "status": "completed"
     },
     "tags": []
@@ -2522,19 +2510,19 @@
   {
    "cell_type": "code",
    "execution_count": 29,
-   "id": "bbc259a6",
+   "id": "5c1412ca",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:57.981043Z",
-     "iopub.status.busy": "2025-06-19T21:05:57.979361Z",
-     "iopub.status.idle": "2025-06-19T21:05:58.228532Z",
-     "shell.execute_reply": "2025-06-19T21:05:58.226049Z"
+     "iopub.execute_input": "2025-06-19T22:53:40.012441Z",
+     "iopub.status.busy": "2025-06-19T22:53:40.010856Z",
+     "iopub.status.idle": "2025-06-19T22:53:40.374097Z",
+     "shell.execute_reply": "2025-06-19T22:53:40.365624Z"
     },
     "papermill": {
-     "duration": 0.294655,
-     "end_time": "2025-06-19T21:05:58.230993",
+     "duration": 0.419004,
+     "end_time": "2025-06-19T22:53:40.377175",
      "exception": false,
-     "start_time": "2025-06-19T21:05:57.936338",
+     "start_time": "2025-06-19T22:53:39.958171",
      "status": "completed"
     },
     "tags": []
@@ -2563,19 +2551,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot_sex(dados_treino, 11, \"Log Comprimento\", \"Boxplot do Sexo em relação ao Log Comprimento\" )\n",
-    "\n"
+    "grafico_boxplot_sex(dados_treino, 11, \"Log Comprimento\", \"Boxplot do Sexo em relação ao Log Comprimento\" )"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "2ea0ff6a",
+   "id": "fab4c8ca",
    "metadata": {
     "papermill": {
-     "duration": 0.035939,
-     "end_time": "2025-06-19T21:05:58.303052",
+     "duration": 0.051892,
+     "end_time": "2025-06-19T22:53:40.483527",
      "exception": false,
-     "start_time": "2025-06-19T21:05:58.267113",
+     "start_time": "2025-06-19T22:53:40.431635",
      "status": "completed"
     },
     "tags": []
@@ -2599,19 +2586,19 @@
   {
    "cell_type": "code",
    "execution_count": 30,
-   "id": "58a52603",
+   "id": "eb483ef1",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:58.378998Z",
-     "iopub.status.busy": "2025-06-19T21:05:58.377589Z",
-     "iopub.status.idle": "2025-06-19T21:05:59.109070Z",
-     "shell.execute_reply": "2025-06-19T21:05:59.107651Z"
+     "iopub.execute_input": "2025-06-19T22:53:40.591042Z",
+     "iopub.status.busy": "2025-06-19T22:53:40.589047Z",
+     "iopub.status.idle": "2025-06-19T22:53:41.653524Z",
+     "shell.execute_reply": "2025-06-19T22:53:41.650603Z"
     },
     "papermill": {
-     "duration": 0.771432,
-     "end_time": "2025-06-19T21:05:59.110943",
+     "duration": 1.122093,
+     "end_time": "2025-06-19T22:53:41.656811",
      "exception": false,
-     "start_time": "2025-06-19T21:05:58.339511",
+     "start_time": "2025-06-19T22:53:40.534718",
      "status": "completed"
     },
     "tags": []
@@ -2650,19 +2637,18 @@
     }
    ],
    "source": [
-    "grafico_dens(dados_treino, 3, \"Diâmetro\", \"Curva de densidade para Diâmetro\")\n",
-    "\n"
+    "grafico_dens(dados_treino, 3, \"Diâmetro\", \"Curva de densidade para Diâmetro\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "37c3e7d0",
+   "id": "2fa1aa7f",
    "metadata": {
     "papermill": {
-     "duration": 0.063653,
-     "end_time": "2025-06-19T21:05:59.211994",
+     "duration": 0.052803,
+     "end_time": "2025-06-19T22:53:41.764397",
      "exception": false,
-     "start_time": "2025-06-19T21:05:59.148341",
+     "start_time": "2025-06-19T22:53:41.711594",
      "status": "completed"
     },
     "tags": []
@@ -2676,19 +2662,19 @@
   {
    "cell_type": "code",
    "execution_count": 31,
-   "id": "6a84fb4c",
+   "id": "965be15d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:59.288181Z",
-     "iopub.status.busy": "2025-06-19T21:05:59.286917Z",
-     "iopub.status.idle": "2025-06-19T21:05:59.308706Z",
-     "shell.execute_reply": "2025-06-19T21:05:59.307476Z"
+     "iopub.execute_input": "2025-06-19T22:53:41.873188Z",
+     "iopub.status.busy": "2025-06-19T22:53:41.871588Z",
+     "iopub.status.idle": "2025-06-19T22:53:41.904543Z",
+     "shell.execute_reply": "2025-06-19T22:53:41.902149Z"
     },
     "papermill": {
-     "duration": 0.060808,
-     "end_time": "2025-06-19T21:05:59.310436",
+     "duration": 0.090359,
+     "end_time": "2025-06-19T22:53:41.907280",
      "exception": false,
-     "start_time": "2025-06-19T21:05:59.249628",
+     "start_time": "2025-06-19T22:53:41.816921",
      "status": "completed"
     },
     "tags": []
@@ -2744,18 +2730,18 @@
    "source": [
     "summary(dados_treino$Diameter)\n",
     "sd(dados_treino$Diameter)\n",
-    "IQR(dados_treino$Diameter)\n"
+    "IQR(dados_treino$Diameter)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "9ea745bf",
+   "id": "6b25199f",
    "metadata": {
     "papermill": {
-     "duration": 0.036474,
-     "end_time": "2025-06-19T21:05:59.384122",
+     "duration": 0.052731,
+     "end_time": "2025-06-19T22:53:42.012984",
      "exception": false,
-     "start_time": "2025-06-19T21:05:59.347648",
+     "start_time": "2025-06-19T22:53:41.960253",
      "status": "completed"
     },
     "tags": []
@@ -2768,19 +2754,19 @@
   {
    "cell_type": "code",
    "execution_count": 32,
-   "id": "94552931",
+   "id": "1b31ba19",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:59.460866Z",
-     "iopub.status.busy": "2025-06-19T21:05:59.459574Z",
-     "iopub.status.idle": "2025-06-19T21:05:59.682854Z",
-     "shell.execute_reply": "2025-06-19T21:05:59.680963Z"
+     "iopub.execute_input": "2025-06-19T22:53:42.123733Z",
+     "iopub.status.busy": "2025-06-19T22:53:42.121806Z",
+     "iopub.status.idle": "2025-06-19T22:53:42.432040Z",
+     "shell.execute_reply": "2025-06-19T22:53:42.429320Z"
     },
     "papermill": {
-     "duration": 0.265413,
-     "end_time": "2025-06-19T21:05:59.685680",
+     "duration": 0.369144,
+     "end_time": "2025-06-19T22:53:42.435189",
      "exception": false,
-     "start_time": "2025-06-19T21:05:59.420267",
+     "start_time": "2025-06-19T22:53:42.066045",
      "status": "completed"
     },
     "tags": []
@@ -2809,19 +2795,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot(dados_treino, 3, \"Diâmetro\", \"Gráfico de Boxplot para Diâmetro\")\n",
-    "\n"
+    "grafico_boxplot(dados_treino, 3, \"Diâmetro\", \"Gráfico de Boxplot para Diâmetro\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "66a35f38",
+   "id": "c71940aa",
    "metadata": {
     "papermill": {
-     "duration": 0.036497,
-     "end_time": "2025-06-19T21:05:59.759834",
+     "duration": 0.054595,
+     "end_time": "2025-06-19T22:53:42.544785",
      "exception": false,
-     "start_time": "2025-06-19T21:05:59.723337",
+     "start_time": "2025-06-19T22:53:42.490190",
      "status": "completed"
     },
     "tags": []
@@ -2834,19 +2819,19 @@
   {
    "cell_type": "code",
    "execution_count": 33,
-   "id": "97470f4b",
+   "id": "4340b059",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:05:59.837143Z",
-     "iopub.status.busy": "2025-06-19T21:05:59.835447Z",
-     "iopub.status.idle": "2025-06-19T21:06:00.116093Z",
-     "shell.execute_reply": "2025-06-19T21:06:00.114768Z"
+     "iopub.execute_input": "2025-06-19T22:53:42.660156Z",
+     "iopub.status.busy": "2025-06-19T22:53:42.658141Z",
+     "iopub.status.idle": "2025-06-19T22:53:43.041106Z",
+     "shell.execute_reply": "2025-06-19T22:53:43.039218Z"
     },
     "papermill": {
-     "duration": 0.321538,
-     "end_time": "2025-06-19T21:06:00.118295",
+     "duration": 0.443652,
+     "end_time": "2025-06-19T22:53:43.043687",
      "exception": false,
-     "start_time": "2025-06-19T21:05:59.796757",
+     "start_time": "2025-06-19T22:53:42.600035",
      "status": "completed"
     },
     "tags": []
@@ -2886,18 +2871,18 @@
    ],
    "source": [
     "grafico_dens(dados_treino[dados_treino$Diameter %in% boxplot.stats(dados_treino$Diameter)$out, ],\n",
-    "             3, \"Diâmetro\", \"Densidade dos outliers do Diâmetro\")\n"
+    "             3, \"Diâmetro\", \"Densidade dos outliers do Diâmetro\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "fd0f8f78",
+   "id": "ba3c83c7",
    "metadata": {
     "papermill": {
-     "duration": 0.03817,
-     "end_time": "2025-06-19T21:06:00.196691",
+     "duration": 0.091237,
+     "end_time": "2025-06-19T22:53:43.192788",
      "exception": false,
-     "start_time": "2025-06-19T21:06:00.158521",
+     "start_time": "2025-06-19T22:53:43.101551",
      "status": "completed"
     },
     "tags": []
@@ -2911,19 +2896,19 @@
   {
    "cell_type": "code",
    "execution_count": 34,
-   "id": "a29c5abd",
+   "id": "723964c5",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:00.279431Z",
-     "iopub.status.busy": "2025-06-19T21:06:00.278162Z",
-     "iopub.status.idle": "2025-06-19T21:06:00.967313Z",
-     "shell.execute_reply": "2025-06-19T21:06:00.965096Z"
+     "iopub.execute_input": "2025-06-19T22:53:43.306685Z",
+     "iopub.status.busy": "2025-06-19T22:53:43.305030Z",
+     "iopub.status.idle": "2025-06-19T22:53:44.407686Z",
+     "shell.execute_reply": "2025-06-19T22:53:44.405692Z"
     },
     "papermill": {
-     "duration": 0.731084,
-     "end_time": "2025-06-19T21:06:00.969268",
+     "duration": 1.162964,
+     "end_time": "2025-06-19T22:53:44.410755",
      "exception": false,
-     "start_time": "2025-06-19T21:06:00.238184",
+     "start_time": "2025-06-19T22:53:43.247791",
      "status": "completed"
     },
     "tags": []
@@ -2952,19 +2937,18 @@
     }
    ],
    "source": [
-    "grafico_disp(dados_treino, 3, 'Diâmetro', \"Relação de Diâmetro com Idade\")\n",
-    "\n"
+    "grafico_disp(dados_treino, 3, 'Diâmetro', \"Relação de Diâmetro com Idade\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "2da15248",
+   "id": "b3fc1977",
    "metadata": {
     "papermill": {
-     "duration": 0.039324,
-     "end_time": "2025-06-19T21:06:01.050357",
+     "duration": 0.057178,
+     "end_time": "2025-06-19T22:53:44.527060",
      "exception": false,
-     "start_time": "2025-06-19T21:06:01.011033",
+     "start_time": "2025-06-19T22:53:44.469882",
      "status": "completed"
     },
     "tags": []
@@ -2978,19 +2962,19 @@
   {
    "cell_type": "code",
    "execution_count": 35,
-   "id": "727a32dd",
+   "id": "82171607",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:01.132487Z",
-     "iopub.status.busy": "2025-06-19T21:06:01.131154Z",
-     "iopub.status.idle": "2025-06-19T21:06:01.808275Z",
-     "shell.execute_reply": "2025-06-19T21:06:01.806159Z"
+     "iopub.execute_input": "2025-06-19T22:53:44.645486Z",
+     "iopub.status.busy": "2025-06-19T22:53:44.643700Z",
+     "iopub.status.idle": "2025-06-19T22:53:45.729149Z",
+     "shell.execute_reply": "2025-06-19T22:53:45.720332Z"
     },
     "papermill": {
-     "duration": 0.721559,
-     "end_time": "2025-06-19T21:06:01.811255",
+     "duration": 1.148405,
+     "end_time": "2025-06-19T22:53:45.732414",
      "exception": false,
-     "start_time": "2025-06-19T21:06:01.089696",
+     "start_time": "2025-06-19T22:53:44.584009",
      "status": "completed"
     },
     "tags": []
@@ -3023,18 +3007,18 @@
     "  theme_fivethirtyeight() +\n",
     "  theme(\n",
     "  axis.title = element_text()\n",
-    ")\n"
+    ")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "5eecc411",
+   "id": "7d9a1442",
    "metadata": {
     "papermill": {
-     "duration": 0.041487,
-     "end_time": "2025-06-19T21:06:01.896700",
+     "duration": 0.06029,
+     "end_time": "2025-06-19T22:53:45.855906",
      "exception": false,
-     "start_time": "2025-06-19T21:06:01.855213",
+     "start_time": "2025-06-19T22:53:45.795616",
      "status": "completed"
     },
     "tags": []
@@ -3048,19 +3032,19 @@
   {
    "cell_type": "code",
    "execution_count": 36,
-   "id": "eb79be1d",
+   "id": "d4077a88",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:01.984465Z",
-     "iopub.status.busy": "2025-06-19T21:06:01.982711Z",
-     "iopub.status.idle": "2025-06-19T21:06:02.221299Z",
-     "shell.execute_reply": "2025-06-19T21:06:02.219947Z"
+     "iopub.execute_input": "2025-06-19T22:53:45.978805Z",
+     "iopub.status.busy": "2025-06-19T22:53:45.976686Z",
+     "iopub.status.idle": "2025-06-19T22:53:46.324505Z",
+     "shell.execute_reply": "2025-06-19T22:53:46.321487Z"
     },
     "papermill": {
-     "duration": 0.284093,
-     "end_time": "2025-06-19T21:06:02.223135",
+     "duration": 0.413153,
+     "end_time": "2025-06-19T22:53:46.328084",
      "exception": false,
-     "start_time": "2025-06-19T21:06:01.939042",
+     "start_time": "2025-06-19T22:53:45.914931",
      "status": "completed"
     },
     "tags": []
@@ -3089,19 +3073,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot_sex(dados_treino, 3, \"Diâmetro\", \"Boxplot do Sexo em relação ao Diâmetro\")\n",
-    "\n"
+    "grafico_boxplot_sex(dados_treino, 3, \"Diâmetro\", \"Boxplot do Sexo em relação ao Diâmetro\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "47b71125",
+   "id": "77f3ab12",
    "metadata": {
     "papermill": {
-     "duration": 0.045688,
-     "end_time": "2025-06-19T21:06:02.312599",
+     "duration": 0.05891,
+     "end_time": "2025-06-19T22:53:46.451867",
      "exception": false,
-     "start_time": "2025-06-19T21:06:02.266911",
+     "start_time": "2025-06-19T22:53:46.392957",
      "status": "completed"
     },
     "tags": []
@@ -3114,19 +3097,19 @@
   {
    "cell_type": "code",
    "execution_count": 37,
-   "id": "dd23a220",
+   "id": "86bc5c99",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:02.409075Z",
-     "iopub.status.busy": "2025-06-19T21:06:02.401157Z",
-     "iopub.status.idle": "2025-06-19T21:06:02.679826Z",
-     "shell.execute_reply": "2025-06-19T21:06:02.677696Z"
+     "iopub.execute_input": "2025-06-19T22:53:46.573983Z",
+     "iopub.status.busy": "2025-06-19T22:53:46.572429Z",
+     "iopub.status.idle": "2025-06-19T22:53:46.926130Z",
+     "shell.execute_reply": "2025-06-19T22:53:46.924154Z"
     },
     "papermill": {
-     "duration": 0.327195,
-     "end_time": "2025-06-19T21:06:02.682167",
+     "duration": 0.417769,
+     "end_time": "2025-06-19T22:53:46.928792",
      "exception": false,
-     "start_time": "2025-06-19T21:06:02.354972",
+     "start_time": "2025-06-19T22:53:46.511023",
      "status": "completed"
     },
     "tags": []
@@ -3155,19 +3138,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot_sex(dados_treino, 12, \"Log Diâmetro\", \"Boxplot do Sexo em relação ao Log Diâmetro\")\n",
-    "\n"
+    "grafico_boxplot_sex(dados_treino, 12, \"Log Diâmetro\", \"Boxplot do Sexo em relação ao Log Diâmetro\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "a14de8e1",
+   "id": "cb3445f0",
    "metadata": {
     "papermill": {
-     "duration": 0.042211,
-     "end_time": "2025-06-19T21:06:02.769650",
+     "duration": 0.059851,
+     "end_time": "2025-06-19T22:53:47.052101",
      "exception": false,
-     "start_time": "2025-06-19T21:06:02.727439",
+     "start_time": "2025-06-19T22:53:46.992250",
      "status": "completed"
     },
     "tags": []
@@ -3189,19 +3171,19 @@
   {
    "cell_type": "code",
    "execution_count": 38,
-   "id": "c2a98f93",
+   "id": "86841028",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:02.857465Z",
-     "iopub.status.busy": "2025-06-19T21:06:02.856062Z",
-     "iopub.status.idle": "2025-06-19T21:06:03.582366Z",
-     "shell.execute_reply": "2025-06-19T21:06:03.581121Z"
+     "iopub.execute_input": "2025-06-19T22:53:47.176713Z",
+     "iopub.status.busy": "2025-06-19T22:53:47.174821Z",
+     "iopub.status.idle": "2025-06-19T22:53:48.232245Z",
+     "shell.execute_reply": "2025-06-19T22:53:48.230332Z"
     },
     "papermill": {
-     "duration": 0.772712,
-     "end_time": "2025-06-19T21:06:03.584440",
+     "duration": 1.122243,
+     "end_time": "2025-06-19T22:53:48.234688",
      "exception": false,
-     "start_time": "2025-06-19T21:06:02.811728",
+     "start_time": "2025-06-19T22:53:47.112445",
      "status": "completed"
     },
     "tags": []
@@ -3240,19 +3222,18 @@
     }
    ],
    "source": [
-    "grafico_dens(dados_treino, 4, \"Altura\", \"Curva de densidade para Altura\")\n",
-    "\n"
+    "grafico_dens(dados_treino, 4, \"Altura\", \"Curva de densidade para Altura\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "7745ee19",
+   "id": "397b8db4",
    "metadata": {
     "papermill": {
-     "duration": 0.04376,
-     "end_time": "2025-06-19T21:06:03.673406",
+     "duration": 0.062,
+     "end_time": "2025-06-19T22:53:48.362243",
      "exception": false,
-     "start_time": "2025-06-19T21:06:03.629646",
+     "start_time": "2025-06-19T22:53:48.300243",
      "status": "completed"
     },
     "tags": []
@@ -3266,19 +3247,19 @@
   {
    "cell_type": "code",
    "execution_count": 39,
-   "id": "c4f7c884",
+   "id": "9ab1510b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:03.764585Z",
-     "iopub.status.busy": "2025-06-19T21:06:03.763194Z",
-     "iopub.status.idle": "2025-06-19T21:06:03.787819Z",
-     "shell.execute_reply": "2025-06-19T21:06:03.786178Z"
+     "iopub.execute_input": "2025-06-19T22:53:48.488878Z",
+     "iopub.status.busy": "2025-06-19T22:53:48.487062Z",
+     "iopub.status.idle": "2025-06-19T22:53:48.520217Z",
+     "shell.execute_reply": "2025-06-19T22:53:48.517817Z"
     },
     "papermill": {
-     "duration": 0.073396,
-     "end_time": "2025-06-19T21:06:03.790067",
+     "duration": 0.099892,
+     "end_time": "2025-06-19T22:53:48.523299",
      "exception": false,
-     "start_time": "2025-06-19T21:06:03.716671",
+     "start_time": "2025-06-19T22:53:48.423407",
      "status": "completed"
     },
     "tags": []
@@ -3334,18 +3315,18 @@
    "source": [
     "summary(dados_treino$Height)\n",
     "sd(dados_treino$Height)\n",
-    "IQR(dados_treino$Height)\n"
+    "IQR(dados_treino$Height)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "16370fc3",
+   "id": "9e208d4d",
    "metadata": {
     "papermill": {
-     "duration": 0.045338,
-     "end_time": "2025-06-19T21:06:03.879646",
+     "duration": 0.062114,
+     "end_time": "2025-06-19T22:53:48.647491",
      "exception": false,
-     "start_time": "2025-06-19T21:06:03.834308",
+     "start_time": "2025-06-19T22:53:48.585377",
      "status": "completed"
     },
     "tags": []
@@ -3358,19 +3339,19 @@
   {
    "cell_type": "code",
    "execution_count": 40,
-   "id": "e2758e27",
+   "id": "8c2a8668",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:03.971064Z",
-     "iopub.status.busy": "2025-06-19T21:06:03.969869Z",
-     "iopub.status.idle": "2025-06-19T21:06:04.184432Z",
-     "shell.execute_reply": "2025-06-19T21:06:04.183144Z"
+     "iopub.execute_input": "2025-06-19T22:53:48.777309Z",
+     "iopub.status.busy": "2025-06-19T22:53:48.775555Z",
+     "iopub.status.idle": "2025-06-19T22:53:49.064220Z",
+     "shell.execute_reply": "2025-06-19T22:53:49.061203Z"
     },
     "papermill": {
-     "duration": 0.261744,
-     "end_time": "2025-06-19T21:06:04.186113",
+     "duration": 0.357293,
+     "end_time": "2025-06-19T22:53:49.067221",
      "exception": false,
-     "start_time": "2025-06-19T21:06:03.924369",
+     "start_time": "2025-06-19T22:53:48.709928",
      "status": "completed"
     },
     "tags": []
@@ -3399,19 +3380,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot(dados_treino, 4, \"Altura\", \"Gráfico de Boxplot para Altura\")\n",
-    "\n"
+    "grafico_boxplot(dados_treino, 4, \"Altura\", \"Gráfico de Boxplot para Altura\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "a7ae93de",
+   "id": "72ddbc0d",
    "metadata": {
     "papermill": {
-     "duration": 0.044472,
-     "end_time": "2025-06-19T21:06:04.274067",
+     "duration": 0.064425,
+     "end_time": "2025-06-19T22:53:49.194970",
      "exception": false,
-     "start_time": "2025-06-19T21:06:04.229595",
+     "start_time": "2025-06-19T22:53:49.130545",
      "status": "completed"
     },
     "tags": []
@@ -3424,19 +3404,19 @@
   {
    "cell_type": "code",
    "execution_count": 41,
-   "id": "44c2e74f",
+   "id": "8b94c361",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:04.366937Z",
-     "iopub.status.busy": "2025-06-19T21:06:04.365722Z",
-     "iopub.status.idle": "2025-06-19T21:06:04.642995Z",
-     "shell.execute_reply": "2025-06-19T21:06:04.641294Z"
+     "iopub.execute_input": "2025-06-19T22:53:49.325292Z",
+     "iopub.status.busy": "2025-06-19T22:53:49.323623Z",
+     "iopub.status.idle": "2025-06-19T22:53:49.685916Z",
+     "shell.execute_reply": "2025-06-19T22:53:49.682964Z"
     },
     "papermill": {
-     "duration": 0.325393,
-     "end_time": "2025-06-19T21:06:04.644965",
+     "duration": 0.431227,
+     "end_time": "2025-06-19T22:53:49.689261",
      "exception": false,
-     "start_time": "2025-06-19T21:06:04.319572",
+     "start_time": "2025-06-19T22:53:49.258034",
      "status": "completed"
     },
     "tags": []
@@ -3476,18 +3456,18 @@
    ],
    "source": [
     "grafico_dens(dados_treino[dados_treino$Height %in% boxplot.stats(dados_treino$Height)$out, ],\n",
-    "             4, \"Altura\", \"Densidade dos outliers da Altura\")\n"
+    "             4, \"Altura\", \"Densidade dos outliers da Altura\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "b8db3f2e",
+   "id": "cf7b254c",
    "metadata": {
     "papermill": {
-     "duration": 0.043739,
-     "end_time": "2025-06-19T21:06:04.734441",
+     "duration": 0.062741,
+     "end_time": "2025-06-19T22:53:49.819001",
      "exception": false,
-     "start_time": "2025-06-19T21:06:04.690702",
+     "start_time": "2025-06-19T22:53:49.756260",
      "status": "completed"
     },
     "tags": []
@@ -3501,19 +3481,19 @@
   {
    "cell_type": "code",
    "execution_count": 42,
-   "id": "fc966a68",
+   "id": "7f179db1",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:04.829477Z",
-     "iopub.status.busy": "2025-06-19T21:06:04.827683Z",
-     "iopub.status.idle": "2025-06-19T21:06:05.653056Z",
-     "shell.execute_reply": "2025-06-19T21:06:05.651122Z"
+     "iopub.execute_input": "2025-06-19T22:53:49.948582Z",
+     "iopub.status.busy": "2025-06-19T22:53:49.946798Z",
+     "iopub.status.idle": "2025-06-19T22:53:51.054384Z",
+     "shell.execute_reply": "2025-06-19T22:53:51.052443Z"
     },
     "papermill": {
-     "duration": 0.87578,
-     "end_time": "2025-06-19T21:06:05.655652",
+     "duration": 1.175765,
+     "end_time": "2025-06-19T22:53:51.057273",
      "exception": false,
-     "start_time": "2025-06-19T21:06:04.779872",
+     "start_time": "2025-06-19T22:53:49.881508",
      "status": "completed"
     },
     "tags": []
@@ -3542,19 +3522,18 @@
     }
    ],
    "source": [
-    "grafico_disp(dados_treino, 4, 'Altura', \"Relação de Altura com Idade\")\n",
-    "\n"
+    "grafico_disp(dados_treino, 4, 'Altura', \"Relação de Altura com Idade\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "0c1d3132",
+   "id": "4263f47c",
    "metadata": {
     "papermill": {
-     "duration": 0.045654,
-     "end_time": "2025-06-19T21:06:05.750480",
+     "duration": 0.066075,
+     "end_time": "2025-06-19T22:53:51.191666",
      "exception": false,
-     "start_time": "2025-06-19T21:06:05.704826",
+     "start_time": "2025-06-19T22:53:51.125591",
      "status": "completed"
     },
     "tags": []
@@ -3567,19 +3546,19 @@
   {
    "cell_type": "code",
    "execution_count": 43,
-   "id": "b5f04714",
+   "id": "507b5129",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:05.846429Z",
-     "iopub.status.busy": "2025-06-19T21:06:05.845183Z",
-     "iopub.status.idle": "2025-06-19T21:06:06.509437Z",
-     "shell.execute_reply": "2025-06-19T21:06:06.507504Z"
+     "iopub.execute_input": "2025-06-19T22:53:51.327791Z",
+     "iopub.status.busy": "2025-06-19T22:53:51.326108Z",
+     "iopub.status.idle": "2025-06-19T22:53:52.551002Z",
+     "shell.execute_reply": "2025-06-19T22:53:52.543329Z"
     },
     "papermill": {
-     "duration": 0.715235,
-     "end_time": "2025-06-19T21:06:06.512061",
+     "duration": 1.295845,
+     "end_time": "2025-06-19T22:53:52.553812",
      "exception": false,
-     "start_time": "2025-06-19T21:06:05.796826",
+     "start_time": "2025-06-19T22:53:51.257967",
      "status": "completed"
     },
     "tags": []
@@ -3612,18 +3591,18 @@
     "  theme_fivethirtyeight() +\n",
     "  theme(\n",
     "  axis.title = element_text()\n",
-    ")\n"
+    ")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "70225b4e",
+   "id": "10b0c41b",
    "metadata": {
     "papermill": {
-     "duration": 0.053916,
-     "end_time": "2025-06-19T21:06:06.617327",
+     "duration": 0.070495,
+     "end_time": "2025-06-19T22:53:52.695241",
      "exception": false,
-     "start_time": "2025-06-19T21:06:06.563411",
+     "start_time": "2025-06-19T22:53:52.624746",
      "status": "completed"
     },
     "tags": []
@@ -3637,19 +3616,19 @@
   {
    "cell_type": "code",
    "execution_count": 44,
-   "id": "fd2d27a1",
+   "id": "b0ddb3ac",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:06.726376Z",
-     "iopub.status.busy": "2025-06-19T21:06:06.725162Z",
-     "iopub.status.idle": "2025-06-19T21:06:06.958761Z",
-     "shell.execute_reply": "2025-06-19T21:06:06.957303Z"
+     "iopub.execute_input": "2025-06-19T22:53:52.837901Z",
+     "iopub.status.busy": "2025-06-19T22:53:52.836312Z",
+     "iopub.status.idle": "2025-06-19T22:53:53.142835Z",
+     "shell.execute_reply": "2025-06-19T22:53:53.141009Z"
     },
     "papermill": {
-     "duration": 0.28894,
-     "end_time": "2025-06-19T21:06:06.960775",
+     "duration": 0.380819,
+     "end_time": "2025-06-19T22:53:53.145263",
      "exception": false,
-     "start_time": "2025-06-19T21:06:06.671835",
+     "start_time": "2025-06-19T22:53:52.764444",
      "status": "completed"
     },
     "tags": []
@@ -3678,19 +3657,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot_sex(dados_treino, 4, \"Altura\", \"Boxplot do Sexo em relação à Altura\")\n",
-    "\n"
+    "grafico_boxplot_sex(dados_treino, 4, \"Altura\", \"Boxplot do Sexo em relação à Altura\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "6460a5b7",
+   "id": "0ce4ba72",
    "metadata": {
     "papermill": {
-     "duration": 0.049855,
-     "end_time": "2025-06-19T21:06:07.059988",
+     "duration": 0.07004,
+     "end_time": "2025-06-19T22:53:53.285841",
      "exception": false,
-     "start_time": "2025-06-19T21:06:07.010133",
+     "start_time": "2025-06-19T22:53:53.215801",
      "status": "completed"
     },
     "tags": []
@@ -3703,19 +3681,19 @@
   {
    "cell_type": "code",
    "execution_count": 45,
-   "id": "32ccbd1b",
+   "id": "7bcbd2bc",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:07.164914Z",
-     "iopub.status.busy": "2025-06-19T21:06:07.163550Z",
-     "iopub.status.idle": "2025-06-19T21:06:07.402813Z",
-     "shell.execute_reply": "2025-06-19T21:06:07.401510Z"
+     "iopub.execute_input": "2025-06-19T22:53:53.429702Z",
+     "iopub.status.busy": "2025-06-19T22:53:53.428149Z",
+     "iopub.status.idle": "2025-06-19T22:53:53.753926Z",
+     "shell.execute_reply": "2025-06-19T22:53:53.752127Z"
     },
     "papermill": {
-     "duration": 0.29405,
-     "end_time": "2025-06-19T21:06:07.404684",
+     "duration": 0.398556,
+     "end_time": "2025-06-19T22:53:53.756276",
      "exception": false,
-     "start_time": "2025-06-19T21:06:07.110634",
+     "start_time": "2025-06-19T22:53:53.357720",
      "status": "completed"
     },
     "tags": []
@@ -3744,19 +3722,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot_sex(dados_treino, 13, \"Log Altura\", \"Boxplot do Sexo em relação à Log Altura\")\n",
-    "\n"
+    "grafico_boxplot_sex(dados_treino, 13, \"Log Altura\", \"Boxplot do Sexo em relação à Log Altura\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "9641d479",
+   "id": "c2c7ef91",
    "metadata": {
     "papermill": {
-     "duration": 0.050702,
-     "end_time": "2025-06-19T21:06:07.508200",
+     "duration": 0.069931,
+     "end_time": "2025-06-19T22:53:53.900314",
      "exception": false,
-     "start_time": "2025-06-19T21:06:07.457498",
+     "start_time": "2025-06-19T22:53:53.830383",
      "status": "completed"
     },
     "tags": []
@@ -3774,19 +3751,19 @@
   {
    "cell_type": "code",
    "execution_count": 46,
-   "id": "cf068e8d",
+   "id": "647df1c4",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:07.614341Z",
-     "iopub.status.busy": "2025-06-19T21:06:07.612996Z",
-     "iopub.status.idle": "2025-06-19T21:06:08.339511Z",
-     "shell.execute_reply": "2025-06-19T21:06:08.338090Z"
+     "iopub.execute_input": "2025-06-19T22:53:54.044254Z",
+     "iopub.status.busy": "2025-06-19T22:53:54.042692Z",
+     "iopub.status.idle": "2025-06-19T22:53:55.122593Z",
+     "shell.execute_reply": "2025-06-19T22:53:55.119821Z"
     },
     "papermill": {
-     "duration": 0.781381,
-     "end_time": "2025-06-19T21:06:08.341305",
+     "duration": 1.156001,
+     "end_time": "2025-06-19T22:53:55.125710",
      "exception": false,
-     "start_time": "2025-06-19T21:06:07.559924",
+     "start_time": "2025-06-19T22:53:53.969709",
      "status": "completed"
     },
     "tags": []
@@ -3825,19 +3802,18 @@
     }
    ],
    "source": [
-    "grafico_dens(dados_treino, 5, \"Peso\", \"Curva de densidade para Peso\")\n",
-    "\n"
+    "grafico_dens(dados_treino, 5, \"Peso\", \"Curva de densidade para Peso\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "537ca5d3",
+   "id": "f1479f9d",
    "metadata": {
     "papermill": {
-     "duration": 0.050746,
-     "end_time": "2025-06-19T21:06:08.446125",
+     "duration": 0.072755,
+     "end_time": "2025-06-19T22:53:55.271886",
      "exception": false,
-     "start_time": "2025-06-19T21:06:08.395379",
+     "start_time": "2025-06-19T22:53:55.199131",
      "status": "completed"
     },
     "tags": []
@@ -3851,19 +3827,19 @@
   {
    "cell_type": "code",
    "execution_count": 47,
-   "id": "8ce27218",
+   "id": "fa3b5d9f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:08.550560Z",
-     "iopub.status.busy": "2025-06-19T21:06:08.549188Z",
-     "iopub.status.idle": "2025-06-19T21:06:08.570288Z",
-     "shell.execute_reply": "2025-06-19T21:06:08.569044Z"
+     "iopub.execute_input": "2025-06-19T22:53:55.416728Z",
+     "iopub.status.busy": "2025-06-19T22:53:55.415159Z",
+     "iopub.status.idle": "2025-06-19T22:53:55.446630Z",
+     "shell.execute_reply": "2025-06-19T22:53:55.444262Z"
     },
     "papermill": {
-     "duration": 0.075778,
-     "end_time": "2025-06-19T21:06:08.571978",
+     "duration": 0.107314,
+     "end_time": "2025-06-19T22:53:55.449758",
      "exception": false,
-     "start_time": "2025-06-19T21:06:08.496200",
+     "start_time": "2025-06-19T22:53:55.342444",
      "status": "completed"
     },
     "tags": []
@@ -3919,18 +3895,18 @@
    "source": [
     "summary(dados_treino$Height)\n",
     "sd(dados_treino$Height)\n",
-    "IQR(dados_treino$Weight)\n"
+    "IQR(dados_treino$Weight)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "15f9ace2",
+   "id": "204c6f66",
    "metadata": {
     "papermill": {
-     "duration": 0.051749,
-     "end_time": "2025-06-19T21:06:08.674237",
+     "duration": 0.070322,
+     "end_time": "2025-06-19T22:53:55.591131",
      "exception": false,
-     "start_time": "2025-06-19T21:06:08.622488",
+     "start_time": "2025-06-19T22:53:55.520809",
      "status": "completed"
     },
     "tags": []
@@ -3943,19 +3919,19 @@
   {
    "cell_type": "code",
    "execution_count": 48,
-   "id": "59c78933",
+   "id": "5ec0195f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:08.781189Z",
-     "iopub.status.busy": "2025-06-19T21:06:08.779876Z",
-     "iopub.status.idle": "2025-06-19T21:06:08.979757Z",
-     "shell.execute_reply": "2025-06-19T21:06:08.978461Z"
+     "iopub.execute_input": "2025-06-19T22:53:55.735400Z",
+     "iopub.status.busy": "2025-06-19T22:53:55.733775Z",
+     "iopub.status.idle": "2025-06-19T22:53:55.991659Z",
+     "shell.execute_reply": "2025-06-19T22:53:55.988898Z"
     },
     "papermill": {
-     "duration": 0.256351,
-     "end_time": "2025-06-19T21:06:08.981632",
+     "duration": 0.333194,
+     "end_time": "2025-06-19T22:53:55.994784",
      "exception": false,
-     "start_time": "2025-06-19T21:06:08.725281",
+     "start_time": "2025-06-19T22:53:55.661590",
      "status": "completed"
     },
     "tags": []
@@ -3984,19 +3960,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot(dados_treino, 5, \"Peso\", \"Gráfico de Boxplot para Peso\")\n",
-    "\n"
+    "grafico_boxplot(dados_treino, 5, \"Peso\", \"Gráfico de Boxplot para Peso\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "6f62888b",
+   "id": "aef7c59d",
    "metadata": {
     "papermill": {
-     "duration": 0.053156,
-     "end_time": "2025-06-19T21:06:09.086987",
+     "duration": 0.114523,
+     "end_time": "2025-06-19T22:53:56.180145",
      "exception": false,
-     "start_time": "2025-06-19T21:06:09.033831",
+     "start_time": "2025-06-19T22:53:56.065622",
      "status": "completed"
     },
     "tags": []
@@ -4009,19 +3984,19 @@
   {
    "cell_type": "code",
    "execution_count": 49,
-   "id": "eaf633a9",
+   "id": "94e1c66c",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:09.198517Z",
-     "iopub.status.busy": "2025-06-19T21:06:09.197194Z",
-     "iopub.status.idle": "2025-06-19T21:06:09.461824Z",
-     "shell.execute_reply": "2025-06-19T21:06:09.460505Z"
+     "iopub.execute_input": "2025-06-19T22:53:56.359763Z",
+     "iopub.status.busy": "2025-06-19T22:53:56.358073Z",
+     "iopub.status.idle": "2025-06-19T22:53:56.705118Z",
+     "shell.execute_reply": "2025-06-19T22:53:56.702417Z"
     },
     "papermill": {
-     "duration": 0.323342,
-     "end_time": "2025-06-19T21:06:09.463619",
+     "duration": 0.44725,
+     "end_time": "2025-06-19T22:53:56.708283",
      "exception": false,
-     "start_time": "2025-06-19T21:06:09.140277",
+     "start_time": "2025-06-19T22:53:56.261033",
      "status": "completed"
     },
     "tags": []
@@ -4061,18 +4036,18 @@
    ],
    "source": [
     "grafico_dens(dados_treino[dados_treino$Weight %in% boxplot.stats(dados_treino$Weight)$out, ],\n",
-    "             5, \"Peso\", \"Densidade dos outliers do Peso\")\n"
+    "             5, \"Peso\", \"Densidade dos outliers do Peso\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "b76fc9c8",
+   "id": "62ca1163",
    "metadata": {
     "papermill": {
-     "duration": 0.055668,
-     "end_time": "2025-06-19T21:06:09.574728",
+     "duration": 0.072978,
+     "end_time": "2025-06-19T22:53:56.858716",
      "exception": false,
-     "start_time": "2025-06-19T21:06:09.519060",
+     "start_time": "2025-06-19T22:53:56.785738",
      "status": "completed"
     },
     "tags": []
@@ -4086,19 +4061,19 @@
   {
    "cell_type": "code",
    "execution_count": 50,
-   "id": "fdd7cdca",
+   "id": "09e0a4cb",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:09.682608Z",
-     "iopub.status.busy": "2025-06-19T21:06:09.681337Z",
-     "iopub.status.idle": "2025-06-19T21:06:10.363379Z",
-     "shell.execute_reply": "2025-06-19T21:06:10.361315Z"
+     "iopub.execute_input": "2025-06-19T22:53:57.008508Z",
+     "iopub.status.busy": "2025-06-19T22:53:57.006163Z",
+     "iopub.status.idle": "2025-06-19T22:53:58.091325Z",
+     "shell.execute_reply": "2025-06-19T22:53:58.089499Z"
     },
     "papermill": {
-     "duration": 0.738578,
-     "end_time": "2025-06-19T21:06:10.366195",
+     "duration": 1.164169,
+     "end_time": "2025-06-19T22:53:58.094626",
      "exception": false,
-     "start_time": "2025-06-19T21:06:09.627617",
+     "start_time": "2025-06-19T22:53:56.930457",
      "status": "completed"
     },
     "tags": []
@@ -4127,19 +4102,18 @@
     }
    ],
    "source": [
-    "grafico_disp(dados_treino, 5, 'Peso', \"Relação de Peso com Idade\")\n",
-    "\n"
+    "grafico_disp(dados_treino, 5, 'Peso', \"Relação de Peso com Idade\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "ea54f9cf",
+   "id": "1f48bfce",
    "metadata": {
     "papermill": {
-     "duration": 0.086298,
-     "end_time": "2025-06-19T21:06:10.510696",
+     "duration": 0.077575,
+     "end_time": "2025-06-19T22:53:58.251470",
      "exception": false,
-     "start_time": "2025-06-19T21:06:10.424398",
+     "start_time": "2025-06-19T22:53:58.173895",
      "status": "completed"
     },
     "tags": []
@@ -4152,19 +4126,19 @@
   {
    "cell_type": "code",
    "execution_count": 51,
-   "id": "ab15dc81",
+   "id": "c18ce649",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:10.621382Z",
-     "iopub.status.busy": "2025-06-19T21:06:10.620106Z",
-     "iopub.status.idle": "2025-06-19T21:06:11.283380Z",
-     "shell.execute_reply": "2025-06-19T21:06:11.281421Z"
+     "iopub.execute_input": "2025-06-19T22:53:58.406491Z",
+     "iopub.status.busy": "2025-06-19T22:53:58.404962Z",
+     "iopub.status.idle": "2025-06-19T22:53:59.458792Z",
+     "shell.execute_reply": "2025-06-19T22:53:59.456956Z"
     },
     "papermill": {
-     "duration": 0.721184,
-     "end_time": "2025-06-19T21:06:11.285793",
+     "duration": 1.134257,
+     "end_time": "2025-06-19T22:53:59.461842",
      "exception": false,
-     "start_time": "2025-06-19T21:06:10.564609",
+     "start_time": "2025-06-19T22:53:58.327585",
      "status": "completed"
     },
     "tags": []
@@ -4197,18 +4171,18 @@
     "  theme_fivethirtyeight() +\n",
     "  theme(\n",
     "  axis.title = element_text()\n",
-    ")\n"
+    ")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "e11d930b",
+   "id": "8a23b41b",
    "metadata": {
     "papermill": {
-     "duration": 0.057187,
-     "end_time": "2025-06-19T21:06:11.402834",
+     "duration": 0.077112,
+     "end_time": "2025-06-19T22:53:59.619197",
      "exception": false,
-     "start_time": "2025-06-19T21:06:11.345647",
+     "start_time": "2025-06-19T22:53:59.542085",
      "status": "completed"
     },
     "tags": []
@@ -4222,19 +4196,19 @@
   {
    "cell_type": "code",
    "execution_count": 52,
-   "id": "2b7f3021",
+   "id": "7327f3c9",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:11.523102Z",
-     "iopub.status.busy": "2025-06-19T21:06:11.521659Z",
-     "iopub.status.idle": "2025-06-19T21:06:11.760948Z",
-     "shell.execute_reply": "2025-06-19T21:06:11.758719Z"
+     "iopub.execute_input": "2025-06-19T22:53:59.777552Z",
+     "iopub.status.busy": "2025-06-19T22:53:59.775938Z",
+     "iopub.status.idle": "2025-06-19T22:54:00.088311Z",
+     "shell.execute_reply": "2025-06-19T22:54:00.086395Z"
     },
     "papermill": {
-     "duration": 0.304888,
-     "end_time": "2025-06-19T21:06:11.763217",
+     "duration": 0.394312,
+     "end_time": "2025-06-19T22:54:00.090652",
      "exception": false,
-     "start_time": "2025-06-19T21:06:11.458329",
+     "start_time": "2025-06-19T22:53:59.696340",
      "status": "completed"
     },
     "tags": []
@@ -4263,19 +4237,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot_sex(dados_treino, 5, \"Peso\", \"Boxplot do Sexo em relação ao Peso\")\n",
-    "\n"
+    "grafico_boxplot_sex(dados_treino, 5, \"Peso\", \"Boxplot do Sexo em relação ao Peso\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "16194392",
+   "id": "23a468cf",
    "metadata": {
     "papermill": {
-     "duration": 0.057973,
-     "end_time": "2025-06-19T21:06:11.880732",
+     "duration": 0.077506,
+     "end_time": "2025-06-19T22:54:00.246378",
      "exception": false,
-     "start_time": "2025-06-19T21:06:11.822759",
+     "start_time": "2025-06-19T22:54:00.168872",
      "status": "completed"
     },
     "tags": []
@@ -4288,19 +4261,19 @@
   {
    "cell_type": "code",
    "execution_count": 53,
-   "id": "24c0d10f",
+   "id": "3a5192f8",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:12.000230Z",
-     "iopub.status.busy": "2025-06-19T21:06:11.998863Z",
-     "iopub.status.idle": "2025-06-19T21:06:12.253383Z",
-     "shell.execute_reply": "2025-06-19T21:06:12.251399Z"
+     "iopub.execute_input": "2025-06-19T22:54:00.403636Z",
+     "iopub.status.busy": "2025-06-19T22:54:00.402070Z",
+     "iopub.status.idle": "2025-06-19T22:54:00.743810Z",
+     "shell.execute_reply": "2025-06-19T22:54:00.741932Z"
     },
     "papermill": {
-     "duration": 0.318133,
-     "end_time": "2025-06-19T21:06:12.255543",
+     "duration": 0.423027,
+     "end_time": "2025-06-19T22:54:00.746063",
      "exception": false,
-     "start_time": "2025-06-19T21:06:11.937410",
+     "start_time": "2025-06-19T22:54:00.323036",
      "status": "completed"
     },
     "tags": []
@@ -4329,19 +4302,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot_sex(dados_treino, 14, \"Log Peso\", \"Boxplot do Sexo em relação ao Log Peso\")\n",
-    "\n"
+    "grafico_boxplot_sex(dados_treino, 14, \"Log Peso\", \"Boxplot do Sexo em relação ao Log Peso\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "4329b948",
+   "id": "ab089949",
    "metadata": {
     "papermill": {
-     "duration": 0.057276,
-     "end_time": "2025-06-19T21:06:12.373903",
+     "duration": 0.07906,
+     "end_time": "2025-06-19T22:54:00.909792",
      "exception": false,
-     "start_time": "2025-06-19T21:06:12.316627",
+     "start_time": "2025-06-19T22:54:00.830732",
      "status": "completed"
     },
     "tags": []
@@ -4355,19 +4327,19 @@
   {
    "cell_type": "code",
    "execution_count": 54,
-   "id": "538694c7",
+   "id": "591438f6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:12.508558Z",
-     "iopub.status.busy": "2025-06-19T21:06:12.506768Z",
-     "iopub.status.idle": "2025-06-19T21:06:12.524358Z",
-     "shell.execute_reply": "2025-06-19T21:06:12.523101Z"
+     "iopub.execute_input": "2025-06-19T22:54:01.070559Z",
+     "iopub.status.busy": "2025-06-19T22:54:01.068957Z",
+     "iopub.status.idle": "2025-06-19T22:54:01.091943Z",
+     "shell.execute_reply": "2025-06-19T22:54:01.090178Z"
     },
     "papermill": {
-     "duration": 0.085494,
-     "end_time": "2025-06-19T21:06:12.526513",
+     "duration": 0.105992,
+     "end_time": "2025-06-19T22:54:01.094445",
      "exception": false,
-     "start_time": "2025-06-19T21:06:12.441019",
+     "start_time": "2025-06-19T22:54:00.988453",
      "status": "completed"
     },
     "tags": []
@@ -4396,18 +4368,18 @@
    "source": [
     "peso <- dados_treino$Shucked.Weight + dados_treino$Viscera.Weight + dados_treino$Shell.Weight\n",
     "\n",
-    "t.test(x = peso, y = dados_treino$Weight)\n"
+    "t.test(x = peso, y = dados_treino$Weight)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "e338e1b7",
+   "id": "ac0a1532",
    "metadata": {
     "papermill": {
-     "duration": 0.056676,
-     "end_time": "2025-06-19T21:06:12.641541",
+     "duration": 0.094955,
+     "end_time": "2025-06-19T22:54:01.268567",
      "exception": false,
-     "start_time": "2025-06-19T21:06:12.584865",
+     "start_time": "2025-06-19T22:54:01.173612",
      "status": "completed"
     },
     "tags": []
@@ -4420,19 +4392,19 @@
   {
    "cell_type": "code",
    "execution_count": 55,
-   "id": "ec9e5911",
+   "id": "875fb11f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:12.759929Z",
-     "iopub.status.busy": "2025-06-19T21:06:12.758015Z",
-     "iopub.status.idle": "2025-06-19T21:06:12.772748Z",
-     "shell.execute_reply": "2025-06-19T21:06:12.771511Z"
+     "iopub.execute_input": "2025-06-19T22:54:01.435700Z",
+     "iopub.status.busy": "2025-06-19T22:54:01.434070Z",
+     "iopub.status.idle": "2025-06-19T22:54:01.451142Z",
+     "shell.execute_reply": "2025-06-19T22:54:01.449434Z"
     },
     "papermill": {
-     "duration": 0.082183,
-     "end_time": "2025-06-19T21:06:12.780673",
+     "duration": 0.101257,
+     "end_time": "2025-06-19T22:54:01.453410",
      "exception": false,
-     "start_time": "2025-06-19T21:06:12.698490",
+     "start_time": "2025-06-19T22:54:01.352153",
      "status": "completed"
     },
     "tags": []
@@ -4450,19 +4422,18 @@
     }
    ],
    "source": [
-    "summary(abs(peso - dados_treino$Weight))\n",
-    "\n"
+    "summary(abs(peso - dados_treino$Weight))"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "5d757a7b",
+   "id": "aad4a8b2",
    "metadata": {
     "papermill": {
-     "duration": 0.058019,
-     "end_time": "2025-06-19T21:06:12.895888",
+     "duration": 0.080202,
+     "end_time": "2025-06-19T22:54:01.612684",
      "exception": false,
-     "start_time": "2025-06-19T21:06:12.837869",
+     "start_time": "2025-06-19T22:54:01.532482",
      "status": "completed"
     },
     "tags": []
@@ -4475,19 +4446,19 @@
   {
    "cell_type": "code",
    "execution_count": 56,
-   "id": "abc0177a",
+   "id": "2d254614",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:13.015015Z",
-     "iopub.status.busy": "2025-06-19T21:06:13.013219Z",
-     "iopub.status.idle": "2025-06-19T21:06:13.027885Z",
-     "shell.execute_reply": "2025-06-19T21:06:13.026620Z"
+     "iopub.execute_input": "2025-06-19T22:54:01.777936Z",
+     "iopub.status.busy": "2025-06-19T22:54:01.776152Z",
+     "iopub.status.idle": "2025-06-19T22:54:01.794090Z",
+     "shell.execute_reply": "2025-06-19T22:54:01.792289Z"
     },
     "papermill": {
-     "duration": 0.075774,
-     "end_time": "2025-06-19T21:06:13.029474",
+     "duration": 0.103636,
+     "end_time": "2025-06-19T22:54:01.796529",
      "exception": false,
-     "start_time": "2025-06-19T21:06:12.953700",
+     "start_time": "2025-06-19T22:54:01.692893",
      "status": "completed"
     },
     "tags": []
@@ -4513,19 +4484,18 @@
     }
    ],
    "source": [
-    "cor(peso, dados_treino$Weight)\n",
-    "\n"
+    "cor(peso, dados_treino$Weight)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "3188b6f8",
+   "id": "21be779d",
    "metadata": {
     "papermill": {
-     "duration": 0.057204,
-     "end_time": "2025-06-19T21:06:13.143150",
+     "duration": 0.078884,
+     "end_time": "2025-06-19T22:54:01.954609",
      "exception": false,
-     "start_time": "2025-06-19T21:06:13.085946",
+     "start_time": "2025-06-19T22:54:01.875725",
      "status": "completed"
     },
     "tags": []
@@ -4547,19 +4517,19 @@
   {
    "cell_type": "code",
    "execution_count": 57,
-   "id": "142a6678",
+   "id": "891dae39",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:13.262180Z",
-     "iopub.status.busy": "2025-06-19T21:06:13.260290Z",
-     "iopub.status.idle": "2025-06-19T21:06:13.976461Z",
-     "shell.execute_reply": "2025-06-19T21:06:13.974392Z"
+     "iopub.execute_input": "2025-06-19T22:54:02.118349Z",
+     "iopub.status.busy": "2025-06-19T22:54:02.116631Z",
+     "iopub.status.idle": "2025-06-19T22:54:03.247434Z",
+     "shell.execute_reply": "2025-06-19T22:54:03.245457Z"
     },
     "papermill": {
-     "duration": 0.777966,
-     "end_time": "2025-06-19T21:06:13.978206",
+     "duration": 1.214337,
+     "end_time": "2025-06-19T22:54:03.250002",
      "exception": false,
-     "start_time": "2025-06-19T21:06:13.200240",
+     "start_time": "2025-06-19T22:54:02.035665",
      "status": "completed"
     },
     "tags": []
@@ -4598,19 +4568,18 @@
     }
    ],
    "source": [
-    "grafico_dens(dados_treino, 6, \"Peso Descascado\", \"Curva de densidade para Peso Descascado\")\n",
-    "\n"
+    "grafico_dens(dados_treino, 6, \"Peso Descascado\", \"Curva de densidade para Peso Descascado\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "3d28f466",
+   "id": "f01103e4",
    "metadata": {
     "papermill": {
-     "duration": 0.055051,
-     "end_time": "2025-06-19T21:06:14.091729",
+     "duration": 0.07914,
+     "end_time": "2025-06-19T22:54:03.415095",
      "exception": false,
-     "start_time": "2025-06-19T21:06:14.036678",
+     "start_time": "2025-06-19T22:54:03.335955",
      "status": "completed"
     },
     "tags": []
@@ -4624,19 +4593,19 @@
   {
    "cell_type": "code",
    "execution_count": 58,
-   "id": "f35eacad",
+   "id": "db919295",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:14.205099Z",
-     "iopub.status.busy": "2025-06-19T21:06:14.203301Z",
-     "iopub.status.idle": "2025-06-19T21:06:14.227945Z",
-     "shell.execute_reply": "2025-06-19T21:06:14.226294Z"
+     "iopub.execute_input": "2025-06-19T22:54:03.579860Z",
+     "iopub.status.busy": "2025-06-19T22:54:03.578302Z",
+     "iopub.status.idle": "2025-06-19T22:54:03.609846Z",
+     "shell.execute_reply": "2025-06-19T22:54:03.607676Z"
     },
     "papermill": {
-     "duration": 0.083273,
-     "end_time": "2025-06-19T21:06:14.230118",
+     "duration": 0.116513,
+     "end_time": "2025-06-19T22:54:03.612730",
      "exception": false,
-     "start_time": "2025-06-19T21:06:14.146845",
+     "start_time": "2025-06-19T22:54:03.496217",
      "status": "completed"
     },
     "tags": []
@@ -4692,18 +4661,18 @@
    "source": [
     "summary(dados_treino$Shucked.Weight)\n",
     "sd(dados_treino$Shucked.Weight)\n",
-    "IQR(dados_treino$Shucked.Weight)\n"
+    "IQR(dados_treino$Shucked.Weight)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "dd028af9",
+   "id": "5f7944eb",
    "metadata": {
     "papermill": {
-     "duration": 0.057761,
-     "end_time": "2025-06-19T21:06:14.344902",
+     "duration": 0.079518,
+     "end_time": "2025-06-19T22:54:03.771396",
      "exception": false,
-     "start_time": "2025-06-19T21:06:14.287141",
+     "start_time": "2025-06-19T22:54:03.691878",
      "status": "completed"
     },
     "tags": []
@@ -4716,19 +4685,19 @@
   {
    "cell_type": "code",
    "execution_count": 59,
-   "id": "fcbb085d",
+   "id": "a9e34879",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:14.461679Z",
-     "iopub.status.busy": "2025-06-19T21:06:14.460464Z",
-     "iopub.status.idle": "2025-06-19T21:06:14.655145Z",
-     "shell.execute_reply": "2025-06-19T21:06:14.653937Z"
+     "iopub.execute_input": "2025-06-19T22:54:03.935102Z",
+     "iopub.status.busy": "2025-06-19T22:54:03.933525Z",
+     "iopub.status.idle": "2025-06-19T22:54:04.198263Z",
+     "shell.execute_reply": "2025-06-19T22:54:04.195493Z"
     },
     "papermill": {
-     "duration": 0.254838,
-     "end_time": "2025-06-19T21:06:14.656939",
+     "duration": 0.349183,
+     "end_time": "2025-06-19T22:54:04.201405",
      "exception": false,
-     "start_time": "2025-06-19T21:06:14.402101",
+     "start_time": "2025-06-19T22:54:03.852222",
      "status": "completed"
     },
     "tags": []
@@ -4757,19 +4726,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot(dados_treino, 6, \"Peso Descascado\", \"Gráfico de Boxplot para Peso Descascado\")\n",
-    "\n"
+    "grafico_boxplot(dados_treino, 6, \"Peso Descascado\", \"Gráfico de Boxplot para Peso Descascado\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "721f924c",
+   "id": "0a737233",
    "metadata": {
     "papermill": {
-     "duration": 0.058623,
-     "end_time": "2025-06-19T21:06:14.789058",
+     "duration": 0.082166,
+     "end_time": "2025-06-19T22:54:04.371482",
      "exception": false,
-     "start_time": "2025-06-19T21:06:14.730435",
+     "start_time": "2025-06-19T22:54:04.289316",
      "status": "completed"
     },
     "tags": []
@@ -4782,19 +4750,19 @@
   {
    "cell_type": "code",
    "execution_count": 60,
-   "id": "6772d78a",
+   "id": "5d619b22",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:14.913413Z",
-     "iopub.status.busy": "2025-06-19T21:06:14.912178Z",
-     "iopub.status.idle": "2025-06-19T21:06:15.184278Z",
-     "shell.execute_reply": "2025-06-19T21:06:15.182994Z"
+     "iopub.execute_input": "2025-06-19T22:54:04.535428Z",
+     "iopub.status.busy": "2025-06-19T22:54:04.533690Z",
+     "iopub.status.idle": "2025-06-19T22:54:04.896249Z",
+     "shell.execute_reply": "2025-06-19T22:54:04.893427Z"
     },
     "papermill": {
-     "duration": 0.337736,
-     "end_time": "2025-06-19T21:06:15.186338",
+     "duration": 0.447869,
+     "end_time": "2025-06-19T22:54:04.899882",
      "exception": false,
-     "start_time": "2025-06-19T21:06:14.848602",
+     "start_time": "2025-06-19T22:54:04.452013",
      "status": "completed"
     },
     "tags": []
@@ -4834,18 +4802,18 @@
    ],
    "source": [
     "  grafico_dens(dados_treino[dados_treino$Shucked.Weight %in% boxplot.stats(dados_treino$Shucked.Weight)$out, ],\n",
-    "             6, \"Peso Descascado\", \"Densidade dos outliers do Peso Descascado\")\n"
+    "             6, \"Peso Descascado\", \"Densidade dos outliers do Peso Descascado\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "eb7cab72",
+   "id": "9463230a",
    "metadata": {
     "papermill": {
-     "duration": 0.06157,
-     "end_time": "2025-06-19T21:06:15.311505",
+     "duration": 0.082364,
+     "end_time": "2025-06-19T22:54:05.069897",
      "exception": false,
-     "start_time": "2025-06-19T21:06:15.249935",
+     "start_time": "2025-06-19T22:54:04.987533",
      "status": "completed"
     },
     "tags": []
@@ -4859,19 +4827,19 @@
   {
    "cell_type": "code",
    "execution_count": 61,
-   "id": "a68e8d0b",
+   "id": "f772d020",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:15.435257Z",
-     "iopub.status.busy": "2025-06-19T21:06:15.433910Z",
-     "iopub.status.idle": "2025-06-19T21:06:16.178667Z",
-     "shell.execute_reply": "2025-06-19T21:06:16.177322Z"
+     "iopub.execute_input": "2025-06-19T22:54:05.238876Z",
+     "iopub.status.busy": "2025-06-19T22:54:05.237256Z",
+     "iopub.status.idle": "2025-06-19T22:54:06.378872Z",
+     "shell.execute_reply": "2025-06-19T22:54:06.369692Z"
     },
     "papermill": {
-     "duration": 0.809978,
-     "end_time": "2025-06-19T21:06:16.181856",
+     "duration": 1.230651,
+     "end_time": "2025-06-19T22:54:06.382805",
      "exception": false,
-     "start_time": "2025-06-19T21:06:15.371878",
+     "start_time": "2025-06-19T22:54:05.152154",
      "status": "completed"
     },
     "tags": []
@@ -4900,19 +4868,18 @@
     }
    ],
    "source": [
-    "grafico_disp(dados_treino, 6, 'Peso Descascado', \"Relação de Peso com Idade Descascado\")\n",
-    "\n"
+    "grafico_disp(dados_treino, 6, 'Peso Descascado', \"Relação de Peso com Idade Descascado\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "d9de5368",
+   "id": "507a725e",
    "metadata": {
     "papermill": {
-     "duration": 0.059759,
-     "end_time": "2025-06-19T21:06:16.309774",
+     "duration": 0.106264,
+     "end_time": "2025-06-19T22:54:06.578163",
      "exception": false,
-     "start_time": "2025-06-19T21:06:16.250015",
+     "start_time": "2025-06-19T22:54:06.471899",
      "status": "completed"
     },
     "tags": []
@@ -4925,19 +4892,19 @@
   {
    "cell_type": "code",
    "execution_count": 62,
-   "id": "637f98ba",
+   "id": "dc5fb03a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:16.434014Z",
-     "iopub.status.busy": "2025-06-19T21:06:16.432271Z",
-     "iopub.status.idle": "2025-06-19T21:06:17.107987Z",
-     "shell.execute_reply": "2025-06-19T21:06:17.106572Z"
+     "iopub.execute_input": "2025-06-19T22:54:06.764091Z",
+     "iopub.status.busy": "2025-06-19T22:54:06.761049Z",
+     "iopub.status.idle": "2025-06-19T22:54:07.873531Z",
+     "shell.execute_reply": "2025-06-19T22:54:07.871638Z"
     },
     "papermill": {
-     "duration": 0.740911,
-     "end_time": "2025-06-19T21:06:17.110227",
+     "duration": 1.211874,
+     "end_time": "2025-06-19T22:54:07.878430",
      "exception": false,
-     "start_time": "2025-06-19T21:06:16.369316",
+     "start_time": "2025-06-19T22:54:06.666556",
      "status": "completed"
     },
     "tags": []
@@ -4970,18 +4937,18 @@
     "  theme_fivethirtyeight() +\n",
     "  theme(\n",
     "  axis.title = element_text()\n",
-    ")\n"
+    ")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "6d7dea80",
+   "id": "b05426eb",
    "metadata": {
     "papermill": {
-     "duration": 0.062835,
-     "end_time": "2025-06-19T21:06:17.247352",
+     "duration": 0.089356,
+     "end_time": "2025-06-19T22:54:08.065281",
      "exception": false,
-     "start_time": "2025-06-19T21:06:17.184517",
+     "start_time": "2025-06-19T22:54:07.975925",
      "status": "completed"
     },
     "tags": []
@@ -4995,19 +4962,19 @@
   {
    "cell_type": "code",
    "execution_count": 63,
-   "id": "a1da724c",
+   "id": "2afb015a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:17.377507Z",
-     "iopub.status.busy": "2025-06-19T21:06:17.376235Z",
-     "iopub.status.idle": "2025-06-19T21:06:17.620556Z",
-     "shell.execute_reply": "2025-06-19T21:06:17.619273Z"
+     "iopub.execute_input": "2025-06-19T22:54:08.242230Z",
+     "iopub.status.busy": "2025-06-19T22:54:08.239786Z",
+     "iopub.status.idle": "2025-06-19T22:54:08.556167Z",
+     "shell.execute_reply": "2025-06-19T22:54:08.554193Z"
     },
     "papermill": {
-     "duration": 0.312337,
-     "end_time": "2025-06-19T21:06:17.622307",
+     "duration": 0.40749,
+     "end_time": "2025-06-19T22:54:08.558630",
      "exception": false,
-     "start_time": "2025-06-19T21:06:17.309970",
+     "start_time": "2025-06-19T22:54:08.151140",
      "status": "completed"
     },
     "tags": []
@@ -5036,19 +5003,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot_sex(dados_treino, 6, \"Peso Descascado\", \"Boxplot do Sexo em relação ao Peso Descascado\")\n",
-    "\n"
+    "grafico_boxplot_sex(dados_treino, 6, \"Peso Descascado\", \"Boxplot do Sexo em relação ao Peso Descascado\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "1410e556",
+   "id": "187f08a8",
    "metadata": {
     "papermill": {
-     "duration": 0.061493,
-     "end_time": "2025-06-19T21:06:17.749248",
+     "duration": 0.0878,
+     "end_time": "2025-06-19T22:54:08.737602",
      "exception": false,
-     "start_time": "2025-06-19T21:06:17.687755",
+     "start_time": "2025-06-19T22:54:08.649802",
      "status": "completed"
     },
     "tags": []
@@ -5061,19 +5027,19 @@
   {
    "cell_type": "code",
    "execution_count": 64,
-   "id": "6c4921c8",
+   "id": "6ee1e250",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:17.877382Z",
-     "iopub.status.busy": "2025-06-19T21:06:17.876175Z",
-     "iopub.status.idle": "2025-06-19T21:06:18.127628Z",
-     "shell.execute_reply": "2025-06-19T21:06:18.126335Z"
+     "iopub.execute_input": "2025-06-19T22:54:08.917211Z",
+     "iopub.status.busy": "2025-06-19T22:54:08.915545Z",
+     "iopub.status.idle": "2025-06-19T22:54:09.260375Z",
+     "shell.execute_reply": "2025-06-19T22:54:09.258534Z"
     },
     "papermill": {
-     "duration": 0.317387,
-     "end_time": "2025-06-19T21:06:18.129602",
+     "duration": 0.436245,
+     "end_time": "2025-06-19T22:54:09.262619",
      "exception": false,
-     "start_time": "2025-06-19T21:06:17.812215",
+     "start_time": "2025-06-19T22:54:08.826374",
      "status": "completed"
     },
     "tags": []
@@ -5102,19 +5068,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot_sex(dados_treino, 15, \"Log Peso Descascado\", \"Boxplot do Sexo em relação ao Log Peso Descascado\")\n",
-    "\n"
+    "grafico_boxplot_sex(dados_treino, 15, \"Log Peso Descascado\", \"Boxplot do Sexo em relação ao Log Peso Descascado\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "0814a67e",
+   "id": "60e3e5a9",
    "metadata": {
     "papermill": {
-     "duration": 0.064084,
-     "end_time": "2025-06-19T21:06:18.256788",
+     "duration": 0.08947,
+     "end_time": "2025-06-19T22:54:09.439358",
      "exception": false,
-     "start_time": "2025-06-19T21:06:18.192704",
+     "start_time": "2025-06-19T22:54:09.349888",
      "status": "completed"
     },
     "tags": []
@@ -5134,19 +5099,19 @@
   {
    "cell_type": "code",
    "execution_count": 65,
-   "id": "bdab8f45",
+   "id": "f51a031a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:18.387603Z",
-     "iopub.status.busy": "2025-06-19T21:06:18.386398Z",
-     "iopub.status.idle": "2025-06-19T21:06:19.081784Z",
-     "shell.execute_reply": "2025-06-19T21:06:19.080397Z"
+     "iopub.execute_input": "2025-06-19T22:54:09.654160Z",
+     "iopub.status.busy": "2025-06-19T22:54:09.652575Z",
+     "iopub.status.idle": "2025-06-19T22:54:10.717219Z",
+     "shell.execute_reply": "2025-06-19T22:54:10.715367Z"
     },
     "papermill": {
-     "duration": 0.762624,
-     "end_time": "2025-06-19T21:06:19.083789",
+     "duration": 1.157028,
+     "end_time": "2025-06-19T22:54:10.719492",
      "exception": false,
-     "start_time": "2025-06-19T21:06:18.321165",
+     "start_time": "2025-06-19T22:54:09.562464",
      "status": "completed"
     },
     "tags": []
@@ -5185,19 +5150,18 @@
     }
    ],
    "source": [
-    "grafico_dens(dados_treino, 7, \"Peso Órgãos\", \"Curva de densidade para Peso Órgãos\")\n",
-    "\n"
+    "grafico_dens(dados_treino, 7, \"Peso Órgãos\", \"Curva de densidade para Peso Órgãos\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "fe847941",
+   "id": "8e7fd5bd",
    "metadata": {
     "papermill": {
-     "duration": 0.065061,
-     "end_time": "2025-06-19T21:06:19.218140",
+     "duration": 0.089246,
+     "end_time": "2025-06-19T22:54:10.902868",
      "exception": false,
-     "start_time": "2025-06-19T21:06:19.153079",
+     "start_time": "2025-06-19T22:54:10.813622",
      "status": "completed"
     },
     "tags": []
@@ -5211,19 +5175,19 @@
   {
    "cell_type": "code",
    "execution_count": 66,
-   "id": "2394e49a",
+   "id": "ecdbd7ed",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:19.353467Z",
-     "iopub.status.busy": "2025-06-19T21:06:19.352187Z",
-     "iopub.status.idle": "2025-06-19T21:06:19.376519Z",
-     "shell.execute_reply": "2025-06-19T21:06:19.374828Z"
+     "iopub.execute_input": "2025-06-19T22:54:11.085057Z",
+     "iopub.status.busy": "2025-06-19T22:54:11.083509Z",
+     "iopub.status.idle": "2025-06-19T22:54:11.114693Z",
+     "shell.execute_reply": "2025-06-19T22:54:11.112517Z"
     },
     "papermill": {
-     "duration": 0.094148,
-     "end_time": "2025-06-19T21:06:19.378723",
+     "duration": 0.125616,
+     "end_time": "2025-06-19T22:54:11.117696",
      "exception": false,
-     "start_time": "2025-06-19T21:06:19.284575",
+     "start_time": "2025-06-19T22:54:10.992080",
      "status": "completed"
     },
     "tags": []
@@ -5279,18 +5243,18 @@
    "source": [
     "summary(dados_treino$Viscera.Weight)\n",
     "sd(dados_treino$Viscera.Weight)\n",
-    "IQR(dados_treino$Viscera.Weight)\n"
+    "IQR(dados_treino$Viscera.Weight)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "a1c74091",
+   "id": "1dcaecfc",
    "metadata": {
     "papermill": {
-     "duration": 0.094587,
-     "end_time": "2025-06-19T21:06:19.540109",
+     "duration": 0.088984,
+     "end_time": "2025-06-19T22:54:11.296341",
      "exception": false,
-     "start_time": "2025-06-19T21:06:19.445522",
+     "start_time": "2025-06-19T22:54:11.207357",
      "status": "completed"
     },
     "tags": []
@@ -5303,19 +5267,19 @@
   {
    "cell_type": "code",
    "execution_count": 67,
-   "id": "0abd00a5",
+   "id": "c9ed22fc",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:19.670456Z",
-     "iopub.status.busy": "2025-06-19T21:06:19.669176Z",
-     "iopub.status.idle": "2025-06-19T21:06:19.867058Z",
-     "shell.execute_reply": "2025-06-19T21:06:19.865730Z"
+     "iopub.execute_input": "2025-06-19T22:54:11.478965Z",
+     "iopub.status.busy": "2025-06-19T22:54:11.477403Z",
+     "iopub.status.idle": "2025-06-19T22:54:11.743865Z",
+     "shell.execute_reply": "2025-06-19T22:54:11.741944Z"
     },
     "papermill": {
-     "duration": 0.265273,
-     "end_time": "2025-06-19T21:06:19.868749",
+     "duration": 0.361613,
+     "end_time": "2025-06-19T22:54:11.746104",
      "exception": false,
-     "start_time": "2025-06-19T21:06:19.603476",
+     "start_time": "2025-06-19T22:54:11.384491",
      "status": "completed"
     },
     "tags": []
@@ -5344,19 +5308,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot(dados_treino, 7, \"Peso Órgãos\", \"Gráfico de Boxplot para Peso Órgãos\")\n",
-    "\n"
+    "grafico_boxplot(dados_treino, 7, \"Peso Órgãos\", \"Gráfico de Boxplot para Peso Órgãos\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "eeda6d93",
+   "id": "7f9e141a",
    "metadata": {
     "papermill": {
-     "duration": 0.066924,
-     "end_time": "2025-06-19T21:06:20.005275",
+     "duration": 0.090162,
+     "end_time": "2025-06-19T22:54:11.933074",
      "exception": false,
-     "start_time": "2025-06-19T21:06:19.938351",
+     "start_time": "2025-06-19T22:54:11.842912",
      "status": "completed"
     },
     "tags": []
@@ -5369,19 +5332,19 @@
   {
    "cell_type": "code",
    "execution_count": 68,
-   "id": "3277c859",
+   "id": "12008d84",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:20.140593Z",
-     "iopub.status.busy": "2025-06-19T21:06:20.138872Z",
-     "iopub.status.idle": "2025-06-19T21:06:20.407764Z",
-     "shell.execute_reply": "2025-06-19T21:06:20.406476Z"
+     "iopub.execute_input": "2025-06-19T22:54:12.117213Z",
+     "iopub.status.busy": "2025-06-19T22:54:12.115579Z",
+     "iopub.status.idle": "2025-06-19T22:54:12.475940Z",
+     "shell.execute_reply": "2025-06-19T22:54:12.473411Z"
     },
     "papermill": {
-     "duration": 0.338797,
-     "end_time": "2025-06-19T21:06:20.409581",
+     "duration": 0.455711,
+     "end_time": "2025-06-19T22:54:12.479004",
      "exception": false,
-     "start_time": "2025-06-19T21:06:20.070784",
+     "start_time": "2025-06-19T22:54:12.023293",
      "status": "completed"
     },
     "tags": []
@@ -5421,18 +5384,18 @@
    ],
    "source": [
     "  grafico_dens(dados_treino[dados_treino$Viscera.Weight %in% boxplot.stats(dados_treino$Viscera.Weight)$out, ],\n",
-    "             7, \"Peso Órgãos\", \"Densidade dos outliers do Peso Órgãos\")\n"
+    "             7, \"Peso Órgãos\", \"Densidade dos outliers do Peso Órgãos\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "c45a7d07",
+   "id": "ffb0bdd8",
    "metadata": {
     "papermill": {
-     "duration": 0.066806,
-     "end_time": "2025-06-19T21:06:20.546983",
+     "duration": 0.091361,
+     "end_time": "2025-06-19T22:54:12.666374",
      "exception": false,
-     "start_time": "2025-06-19T21:06:20.480177",
+     "start_time": "2025-06-19T22:54:12.575013",
      "status": "completed"
     },
     "tags": []
@@ -5446,19 +5409,19 @@
   {
    "cell_type": "code",
    "execution_count": 69,
-   "id": "5aa8dac7",
+   "id": "047bf3e2",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:20.681915Z",
-     "iopub.status.busy": "2025-06-19T21:06:20.680193Z",
-     "iopub.status.idle": "2025-06-19T21:06:21.356079Z",
-     "shell.execute_reply": "2025-06-19T21:06:21.354624Z"
+     "iopub.execute_input": "2025-06-19T22:54:12.853816Z",
+     "iopub.status.busy": "2025-06-19T22:54:12.852227Z",
+     "iopub.status.idle": "2025-06-19T22:54:13.939762Z",
+     "shell.execute_reply": "2025-06-19T22:54:13.937946Z"
     },
     "papermill": {
-     "duration": 0.746106,
-     "end_time": "2025-06-19T21:06:21.358144",
+     "duration": 1.185318,
+     "end_time": "2025-06-19T22:54:13.942939",
      "exception": false,
-     "start_time": "2025-06-19T21:06:20.612038",
+     "start_time": "2025-06-19T22:54:12.757621",
      "status": "completed"
     },
     "tags": []
@@ -5487,19 +5450,18 @@
     }
    ],
    "source": [
-    "grafico_disp(dados_treino, 7, 'Peso Órgãos', \"Relação de Peso com Idade Órgãos\")\n",
-    "\n"
+    "grafico_disp(dados_treino, 7, 'Peso Órgãos', \"Relação de Peso com Idade Órgãos\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "3042ccf8",
+   "id": "9f4c950d",
    "metadata": {
     "papermill": {
-     "duration": 0.068192,
-     "end_time": "2025-06-19T21:06:21.498256",
+     "duration": 0.093334,
+     "end_time": "2025-06-19T22:54:14.135076",
      "exception": false,
-     "start_time": "2025-06-19T21:06:21.430064",
+     "start_time": "2025-06-19T22:54:14.041742",
      "status": "completed"
     },
     "tags": []
@@ -5512,19 +5474,19 @@
   {
    "cell_type": "code",
    "execution_count": 70,
-   "id": "2bedff33",
+   "id": "5d41c654",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:21.636702Z",
-     "iopub.status.busy": "2025-06-19T21:06:21.634881Z",
-     "iopub.status.idle": "2025-06-19T21:06:22.299687Z",
-     "shell.execute_reply": "2025-06-19T21:06:22.297706Z"
+     "iopub.execute_input": "2025-06-19T22:54:14.327697Z",
+     "iopub.status.busy": "2025-06-19T22:54:14.326069Z",
+     "iopub.status.idle": "2025-06-19T22:54:15.402970Z",
+     "shell.execute_reply": "2025-06-19T22:54:15.401024Z"
     },
     "papermill": {
-     "duration": 0.736675,
-     "end_time": "2025-06-19T21:06:22.302109",
+     "duration": 1.177598,
+     "end_time": "2025-06-19T22:54:15.405673",
      "exception": false,
-     "start_time": "2025-06-19T21:06:21.565434",
+     "start_time": "2025-06-19T22:54:14.228075",
      "status": "completed"
     },
     "tags": []
@@ -5557,18 +5519,18 @@
     "  theme_fivethirtyeight() +\n",
     "  theme(\n",
     "  axis.title = element_text()\n",
-    ")\n"
+    ")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "b3dde1ae",
+   "id": "ab723411",
    "metadata": {
     "papermill": {
-     "duration": 0.096888,
-     "end_time": "2025-06-19T21:06:22.474617",
+     "duration": 0.095764,
+     "end_time": "2025-06-19T22:54:15.602088",
      "exception": false,
-     "start_time": "2025-06-19T21:06:22.377729",
+     "start_time": "2025-06-19T22:54:15.506324",
      "status": "completed"
     },
     "tags": []
@@ -5582,19 +5544,19 @@
   {
    "cell_type": "code",
    "execution_count": 71,
-   "id": "a093bcd7",
+   "id": "3b2fabdc",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:22.627670Z",
-     "iopub.status.busy": "2025-06-19T21:06:22.626198Z",
-     "iopub.status.idle": "2025-06-19T21:06:22.864159Z",
-     "shell.execute_reply": "2025-06-19T21:06:22.862921Z"
+     "iopub.execute_input": "2025-06-19T22:54:15.797994Z",
+     "iopub.status.busy": "2025-06-19T22:54:15.796343Z",
+     "iopub.status.idle": "2025-06-19T22:54:16.122440Z",
+     "shell.execute_reply": "2025-06-19T22:54:16.120323Z"
     },
     "papermill": {
-     "duration": 0.316198,
-     "end_time": "2025-06-19T21:06:22.866114",
+     "duration": 0.427429,
+     "end_time": "2025-06-19T22:54:16.124844",
      "exception": false,
-     "start_time": "2025-06-19T21:06:22.549916",
+     "start_time": "2025-06-19T22:54:15.697415",
      "status": "completed"
     },
     "tags": []
@@ -5623,19 +5585,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot_sex(dados_treino, 7, \"Peso Órgãos\", \"Boxplot do Sexo em relação ao Peso Órgãos\")\n",
-    "\n"
+    "grafico_boxplot_sex(dados_treino, 7, \"Peso Órgãos\", \"Boxplot do Sexo em relação ao Peso Órgãos\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "b1c34700",
+   "id": "8b942f38",
    "metadata": {
     "papermill": {
-     "duration": 0.069937,
-     "end_time": "2025-06-19T21:06:23.011034",
+     "duration": 0.124395,
+     "end_time": "2025-06-19T22:54:16.350536",
      "exception": false,
-     "start_time": "2025-06-19T21:06:22.941097",
+     "start_time": "2025-06-19T22:54:16.226141",
      "status": "completed"
     },
     "tags": []
@@ -5648,19 +5609,19 @@
   {
    "cell_type": "code",
    "execution_count": 72,
-   "id": "a3d10ba9",
+   "id": "c27ed039",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:23.155122Z",
-     "iopub.status.busy": "2025-06-19T21:06:23.153260Z",
-     "iopub.status.idle": "2025-06-19T21:06:23.414715Z",
-     "shell.execute_reply": "2025-06-19T21:06:23.412982Z"
+     "iopub.execute_input": "2025-06-19T22:54:16.546813Z",
+     "iopub.status.busy": "2025-06-19T22:54:16.545048Z",
+     "iopub.status.idle": "2025-06-19T22:54:16.894932Z",
+     "shell.execute_reply": "2025-06-19T22:54:16.891878Z"
     },
     "papermill": {
-     "duration": 0.336497,
-     "end_time": "2025-06-19T21:06:23.417034",
+     "duration": 0.451472,
+     "end_time": "2025-06-19T22:54:16.898041",
      "exception": false,
-     "start_time": "2025-06-19T21:06:23.080537",
+     "start_time": "2025-06-19T22:54:16.446569",
      "status": "completed"
     },
     "tags": []
@@ -5689,19 +5650,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot_sex(dados_treino, 16, \"Log Peso Órgãos\", \"Boxplot do Sexo em relação ao Log Peso Órgãos\")\n",
-    "\n"
+    "grafico_boxplot_sex(dados_treino, 16, \"Log Peso Órgãos\", \"Boxplot do Sexo em relação ao Log Peso Órgãos\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "9bbd9827",
+   "id": "5f79d31a",
    "metadata": {
     "papermill": {
-     "duration": 0.072129,
-     "end_time": "2025-06-19T21:06:23.559672",
+     "duration": 0.097862,
+     "end_time": "2025-06-19T22:54:17.097662",
      "exception": false,
-     "start_time": "2025-06-19T21:06:23.487543",
+     "start_time": "2025-06-19T22:54:16.999800",
      "status": "completed"
     },
     "tags": []
@@ -5721,19 +5681,19 @@
   {
    "cell_type": "code",
    "execution_count": 73,
-   "id": "0213774a",
+   "id": "f9ce5f57",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:23.705818Z",
-     "iopub.status.busy": "2025-06-19T21:06:23.703880Z",
-     "iopub.status.idle": "2025-06-19T21:06:24.428410Z",
-     "shell.execute_reply": "2025-06-19T21:06:24.427015Z"
+     "iopub.execute_input": "2025-06-19T22:54:17.299439Z",
+     "iopub.status.busy": "2025-06-19T22:54:17.297812Z",
+     "iopub.status.idle": "2025-06-19T22:54:18.371007Z",
+     "shell.execute_reply": "2025-06-19T22:54:18.369063Z"
     },
     "papermill": {
-     "duration": 0.799447,
-     "end_time": "2025-06-19T21:06:24.430289",
+     "duration": 1.178782,
+     "end_time": "2025-06-19T22:54:18.373745",
      "exception": false,
-     "start_time": "2025-06-19T21:06:23.630842",
+     "start_time": "2025-06-19T22:54:17.194963",
      "status": "completed"
     },
     "tags": []
@@ -5772,19 +5732,18 @@
     }
    ],
    "source": [
-    "grafico_dens(dados_treino, 8, \"Peso Casco\", \"Curva de densidade para Peso Casco\")\n",
-    "\n"
+    "grafico_dens(dados_treino, 8, \"Peso Casco\", \"Curva de densidade para Peso Casco\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "7a32f390",
+   "id": "ca7d1f54",
    "metadata": {
     "papermill": {
-     "duration": 0.072966,
-     "end_time": "2025-06-19T21:06:24.583163",
+     "duration": 0.099523,
+     "end_time": "2025-06-19T22:54:18.578170",
      "exception": false,
-     "start_time": "2025-06-19T21:06:24.510197",
+     "start_time": "2025-06-19T22:54:18.478647",
      "status": "completed"
     },
     "tags": []
@@ -5798,19 +5757,19 @@
   {
    "cell_type": "code",
    "execution_count": 74,
-   "id": "106f3531",
+   "id": "d274679d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:24.733736Z",
-     "iopub.status.busy": "2025-06-19T21:06:24.732345Z",
-     "iopub.status.idle": "2025-06-19T21:06:24.757284Z",
-     "shell.execute_reply": "2025-06-19T21:06:24.755565Z"
+     "iopub.execute_input": "2025-06-19T22:54:18.780491Z",
+     "iopub.status.busy": "2025-06-19T22:54:18.778863Z",
+     "iopub.status.idle": "2025-06-19T22:54:18.806148Z",
+     "shell.execute_reply": "2025-06-19T22:54:18.804409Z"
     },
     "papermill": {
-     "duration": 0.108799,
-     "end_time": "2025-06-19T21:06:24.765334",
+     "duration": 0.131859,
+     "end_time": "2025-06-19T22:54:18.808701",
      "exception": false,
-     "start_time": "2025-06-19T21:06:24.656535",
+     "start_time": "2025-06-19T22:54:18.676842",
      "status": "completed"
     },
     "tags": []
@@ -5866,18 +5825,18 @@
    "source": [
     "summary(dados_treino$Shell.Weight)\n",
     "sd(dados_treino$Shell.Weight)\n",
-    "IQR(dados_treino$Shell.Weight)\n"
+    "IQR(dados_treino$Shell.Weight)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "aca7128e",
+   "id": "8bd6fe40",
    "metadata": {
     "papermill": {
-     "duration": 0.072149,
-     "end_time": "2025-06-19T21:06:24.909930",
+     "duration": 0.097834,
+     "end_time": "2025-06-19T22:54:19.007283",
      "exception": false,
-     "start_time": "2025-06-19T21:06:24.837781",
+     "start_time": "2025-06-19T22:54:18.909449",
      "status": "completed"
     },
     "tags": []
@@ -5890,19 +5849,19 @@
   {
    "cell_type": "code",
    "execution_count": 75,
-   "id": "eca34387",
+   "id": "f3cb9a67",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:25.060302Z",
-     "iopub.status.busy": "2025-06-19T21:06:25.057905Z",
-     "iopub.status.idle": "2025-06-19T21:06:25.274499Z",
-     "shell.execute_reply": "2025-06-19T21:06:25.273087Z"
+     "iopub.execute_input": "2025-06-19T22:54:19.207603Z",
+     "iopub.status.busy": "2025-06-19T22:54:19.205950Z",
+     "iopub.status.idle": "2025-06-19T22:54:19.481133Z",
+     "shell.execute_reply": "2025-06-19T22:54:19.479252Z"
     },
     "papermill": {
-     "duration": 0.292969,
-     "end_time": "2025-06-19T21:06:25.276538",
+     "duration": 0.384556,
+     "end_time": "2025-06-19T22:54:19.490067",
      "exception": false,
-     "start_time": "2025-06-19T21:06:24.983569",
+     "start_time": "2025-06-19T22:54:19.105511",
      "status": "completed"
     },
     "tags": []
@@ -5931,19 +5890,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot(dados_treino, 8, \"Peso Casco\", \"Gráfico de Boxplot para Peso Casco\")\n",
-    "\n"
+    "grafico_boxplot(dados_treino, 8, \"Peso Casco\", \"Gráfico de Boxplot para Peso Casco\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "b9f392e0",
+   "id": "56d91323",
    "metadata": {
     "papermill": {
-     "duration": 0.073937,
-     "end_time": "2025-06-19T21:06:25.428021",
+     "duration": 0.099856,
+     "end_time": "2025-06-19T22:54:19.696107",
      "exception": false,
-     "start_time": "2025-06-19T21:06:25.354084",
+     "start_time": "2025-06-19T22:54:19.596251",
      "status": "completed"
     },
     "tags": []
@@ -5956,19 +5914,19 @@
   {
    "cell_type": "code",
    "execution_count": 76,
-   "id": "3a422349",
+   "id": "bde5f87a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:25.579455Z",
-     "iopub.status.busy": "2025-06-19T21:06:25.577538Z",
-     "iopub.status.idle": "2025-06-19T21:06:25.864900Z",
-     "shell.execute_reply": "2025-06-19T21:06:25.862884Z"
+     "iopub.execute_input": "2025-06-19T22:54:19.903784Z",
+     "iopub.status.busy": "2025-06-19T22:54:19.901624Z",
+     "iopub.status.idle": "2025-06-19T22:54:20.273365Z",
+     "shell.execute_reply": "2025-06-19T22:54:20.270884Z"
     },
     "papermill": {
-     "duration": 0.365809,
-     "end_time": "2025-06-19T21:06:25.867305",
+     "duration": 0.480276,
+     "end_time": "2025-06-19T22:54:20.276863",
      "exception": false,
-     "start_time": "2025-06-19T21:06:25.501496",
+     "start_time": "2025-06-19T22:54:19.796587",
      "status": "completed"
     },
     "tags": []
@@ -6008,18 +5966,18 @@
    ],
    "source": [
     "  grafico_dens(dados_treino[dados_treino$Shell.Weight %in% boxplot.stats(dados_treino$Shell.Weight)$out, ],\n",
-    "             8, \"Peso Casco\", \"Densidade dos outliers do Peso Casco\")\n"
+    "             8, \"Peso Casco\", \"Densidade dos outliers do Peso Casco\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "c99f981e",
+   "id": "fcd59226",
    "metadata": {
     "papermill": {
-     "duration": 0.072253,
-     "end_time": "2025-06-19T21:06:26.017497",
+     "duration": 0.100659,
+     "end_time": "2025-06-19T22:54:20.485022",
      "exception": false,
-     "start_time": "2025-06-19T21:06:25.945244",
+     "start_time": "2025-06-19T22:54:20.384363",
      "status": "completed"
     },
     "tags": []
@@ -6033,19 +5991,19 @@
   {
    "cell_type": "code",
    "execution_count": 77,
-   "id": "bd0b7c2a",
+   "id": "ea34e733",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:26.168486Z",
-     "iopub.status.busy": "2025-06-19T21:06:26.167209Z",
-     "iopub.status.idle": "2025-06-19T21:06:26.865723Z",
-     "shell.execute_reply": "2025-06-19T21:06:26.862921Z"
+     "iopub.execute_input": "2025-06-19T22:54:20.691991Z",
+     "iopub.status.busy": "2025-06-19T22:54:20.689867Z",
+     "iopub.status.idle": "2025-06-19T22:54:21.789783Z",
+     "shell.execute_reply": "2025-06-19T22:54:21.787754Z"
     },
     "papermill": {
-     "duration": 0.778807,
-     "end_time": "2025-06-19T21:06:26.868845",
+     "duration": 1.207049,
+     "end_time": "2025-06-19T22:54:21.792878",
      "exception": false,
-     "start_time": "2025-06-19T21:06:26.090038",
+     "start_time": "2025-06-19T22:54:20.585829",
      "status": "completed"
     },
     "tags": []
@@ -6074,19 +6032,18 @@
     }
    ],
    "source": [
-    "grafico_disp(dados_treino, 8, 'Peso Casco', \"Relação de Peso com Idade Casco\")\n",
-    "\n"
+    "grafico_disp(dados_treino, 8, 'Peso Casco', \"Relação de Peso com Idade Casco\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "795db79d",
+   "id": "c6e6ad41",
    "metadata": {
     "papermill": {
-     "duration": 0.074363,
-     "end_time": "2025-06-19T21:06:27.022355",
+     "duration": 0.109617,
+     "end_time": "2025-06-19T22:54:22.012363",
      "exception": false,
-     "start_time": "2025-06-19T21:06:26.947992",
+     "start_time": "2025-06-19T22:54:21.902746",
      "status": "completed"
     },
     "tags": []
@@ -6099,19 +6056,19 @@
   {
    "cell_type": "code",
    "execution_count": 78,
-   "id": "f774362b",
+   "id": "f45b9762",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:27.172857Z",
-     "iopub.status.busy": "2025-06-19T21:06:27.170994Z",
-     "iopub.status.idle": "2025-06-19T21:06:27.874905Z",
-     "shell.execute_reply": "2025-06-19T21:06:27.873472Z"
+     "iopub.execute_input": "2025-06-19T22:54:22.225188Z",
+     "iopub.status.busy": "2025-06-19T22:54:22.223512Z",
+     "iopub.status.idle": "2025-06-19T22:54:23.308348Z",
+     "shell.execute_reply": "2025-06-19T22:54:23.305286Z"
     },
     "papermill": {
-     "duration": 0.781976,
-     "end_time": "2025-06-19T21:06:27.877024",
+     "duration": 1.193124,
+     "end_time": "2025-06-19T22:54:23.312018",
      "exception": false,
-     "start_time": "2025-06-19T21:06:27.095048",
+     "start_time": "2025-06-19T22:54:22.118894",
      "status": "completed"
     },
     "tags": []
@@ -6144,18 +6101,18 @@
     "  theme_fivethirtyeight() +\n",
     "  theme(\n",
     "  axis.title = element_text()\n",
-    ")\n"
+    ")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "73db1da1",
+   "id": "bbc98854",
    "metadata": {
     "papermill": {
-     "duration": 0.076311,
-     "end_time": "2025-06-19T21:06:28.035075",
+     "duration": 0.104503,
+     "end_time": "2025-06-19T22:54:23.526923",
      "exception": false,
-     "start_time": "2025-06-19T21:06:27.958764",
+     "start_time": "2025-06-19T22:54:23.422420",
      "status": "completed"
     },
     "tags": []
@@ -6169,19 +6126,19 @@
   {
    "cell_type": "code",
    "execution_count": 79,
-   "id": "682d84e4",
+   "id": "295157eb",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:28.192052Z",
-     "iopub.status.busy": "2025-06-19T21:06:28.190076Z",
-     "iopub.status.idle": "2025-06-19T21:06:28.454975Z",
-     "shell.execute_reply": "2025-06-19T21:06:28.453562Z"
+     "iopub.execute_input": "2025-06-19T22:54:23.738380Z",
+     "iopub.status.busy": "2025-06-19T22:54:23.736742Z",
+     "iopub.status.idle": "2025-06-19T22:54:24.073066Z",
+     "shell.execute_reply": "2025-06-19T22:54:24.070184Z"
     },
     "papermill": {
-     "duration": 0.34549,
-     "end_time": "2025-06-19T21:06:28.456640",
+     "duration": 0.445321,
+     "end_time": "2025-06-19T22:54:24.076203",
      "exception": false,
-     "start_time": "2025-06-19T21:06:28.111150",
+     "start_time": "2025-06-19T22:54:23.630882",
      "status": "completed"
     },
     "tags": []
@@ -6210,19 +6167,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot_sex(dados_treino, 8, \"Peso Casco\", \"Boxplot do Sexo em relação ao Peso Casco\")\n",
-    "\n"
+    "grafico_boxplot_sex(dados_treino, 8, \"Peso Casco\", \"Boxplot do Sexo em relação ao Peso Casco\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "530903b5",
+   "id": "4f51a18f",
    "metadata": {
     "papermill": {
-     "duration": 0.078471,
-     "end_time": "2025-06-19T21:06:28.616287",
+     "duration": 0.104846,
+     "end_time": "2025-06-19T22:54:24.292249",
      "exception": false,
-     "start_time": "2025-06-19T21:06:28.537816",
+     "start_time": "2025-06-19T22:54:24.187403",
      "status": "completed"
     },
     "tags": []
@@ -6235,19 +6191,19 @@
   {
    "cell_type": "code",
    "execution_count": 80,
-   "id": "b4268d5a",
+   "id": "5e6b8c87",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:28.775697Z",
-     "iopub.status.busy": "2025-06-19T21:06:28.774342Z",
-     "iopub.status.idle": "2025-06-19T21:06:29.044112Z",
-     "shell.execute_reply": "2025-06-19T21:06:29.042706Z"
+     "iopub.execute_input": "2025-06-19T22:54:24.506071Z",
+     "iopub.status.busy": "2025-06-19T22:54:24.504080Z",
+     "iopub.status.idle": "2025-06-19T22:54:24.862488Z",
+     "shell.execute_reply": "2025-06-19T22:54:24.860019Z"
     },
     "papermill": {
-     "duration": 0.352415,
-     "end_time": "2025-06-19T21:06:29.045954",
+     "duration": 0.468567,
+     "end_time": "2025-06-19T22:54:24.865072",
      "exception": false,
-     "start_time": "2025-06-19T21:06:28.693539",
+     "start_time": "2025-06-19T22:54:24.396505",
      "status": "completed"
     },
     "tags": []
@@ -6276,19 +6232,18 @@
     }
    ],
    "source": [
-    "grafico_boxplot_sex(dados_treino, 17, \"Log Peso Casco\", \"Boxplot do Sexo em relação ao Log Peso Casco\")\n",
-    "\n"
+    "grafico_boxplot_sex(dados_treino, 17, \"Log Peso Casco\", \"Boxplot do Sexo em relação ao Log Peso Casco\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "7d6437d7",
+   "id": "c8f8cbbf",
    "metadata": {
     "papermill": {
-     "duration": 0.076794,
-     "end_time": "2025-06-19T21:06:29.206553",
+     "duration": 0.106285,
+     "end_time": "2025-06-19T22:54:25.084315",
      "exception": false,
-     "start_time": "2025-06-19T21:06:29.129759",
+     "start_time": "2025-06-19T22:54:24.978030",
      "status": "completed"
     },
     "tags": []
@@ -6310,19 +6265,19 @@
   {
    "cell_type": "code",
    "execution_count": 81,
-   "id": "cdc505d3",
+   "id": "fee09793",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:29.365596Z",
-     "iopub.status.busy": "2025-06-19T21:06:29.363730Z",
-     "iopub.status.idle": "2025-06-19T21:06:29.471513Z",
-     "shell.execute_reply": "2025-06-19T21:06:29.469268Z"
+     "iopub.execute_input": "2025-06-19T22:54:25.340828Z",
+     "iopub.status.busy": "2025-06-19T22:54:25.339260Z",
+     "iopub.status.idle": "2025-06-19T22:54:25.452082Z",
+     "shell.execute_reply": "2025-06-19T22:54:25.447750Z"
     },
     "papermill": {
-     "duration": 0.190546,
-     "end_time": "2025-06-19T21:06:29.474287",
+     "duration": 0.229495,
+     "end_time": "2025-06-19T22:54:25.457583",
      "exception": false,
-     "start_time": "2025-06-19T21:06:29.283741",
+     "start_time": "2025-06-19T22:54:25.228088",
      "status": "completed"
     },
     "tags": []
@@ -6382,18 +6337,18 @@
     "              + log10(Shell.Weight)*Sex + log10(Height + 1)*Sex,\n",
     "              data = dados_treino)\n",
     "\n",
-    "summary(modelo1)\n"
+    "summary(modelo1)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "3965866f",
+   "id": "34685c54",
    "metadata": {
     "papermill": {
-     "duration": 0.077533,
-     "end_time": "2025-06-19T21:06:29.666377",
+     "duration": 0.10619,
+     "end_time": "2025-06-19T22:54:25.729717",
      "exception": false,
-     "start_time": "2025-06-19T21:06:29.588844",
+     "start_time": "2025-06-19T22:54:25.623527",
      "status": "completed"
     },
     "tags": []
@@ -6407,19 +6362,19 @@
   {
    "cell_type": "code",
    "execution_count": 82,
-   "id": "5f7a8ecd",
+   "id": "1011334e",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:29.826654Z",
-     "iopub.status.busy": "2025-06-19T21:06:29.824668Z",
-     "iopub.status.idle": "2025-06-19T21:06:29.870256Z",
-     "shell.execute_reply": "2025-06-19T21:06:29.867448Z"
+     "iopub.execute_input": "2025-06-19T22:54:25.944761Z",
+     "iopub.status.busy": "2025-06-19T22:54:25.943192Z",
+     "iopub.status.idle": "2025-06-19T22:54:26.017378Z",
+     "shell.execute_reply": "2025-06-19T22:54:26.012665Z"
     },
     "papermill": {
-     "duration": 0.133498,
-     "end_time": "2025-06-19T21:06:29.877207",
+     "duration": 0.187217,
+     "end_time": "2025-06-19T22:54:26.022580",
      "exception": false,
-     "start_time": "2025-06-19T21:06:29.743709",
+     "start_time": "2025-06-19T22:54:25.835363",
      "status": "completed"
     },
     "tags": []
@@ -6466,18 +6421,18 @@
    "source": [
     "modelo2 <- lm(log10(Age) ~ log10(Shucked.Weight)*Sex + log10(Shell.Weight)*Sex + log10(Height + 1)*Sex,\n",
     "              data = dados_treino)\n",
-    "summary(modelo2)\n"
+    "summary(modelo2)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "03bc1077",
+   "id": "7df59a5b",
    "metadata": {
     "papermill": {
-     "duration": 0.077557,
-     "end_time": "2025-06-19T21:06:30.065611",
+     "duration": 0.120048,
+     "end_time": "2025-06-19T22:54:26.300597",
      "exception": false,
-     "start_time": "2025-06-19T21:06:29.988054",
+     "start_time": "2025-06-19T22:54:26.180549",
      "status": "completed"
     },
     "tags": []
@@ -6490,19 +6445,19 @@
   {
    "cell_type": "code",
    "execution_count": 83,
-   "id": "905a6e06",
+   "id": "3cc97cc6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:30.256317Z",
-     "iopub.status.busy": "2025-06-19T21:06:30.254255Z",
-     "iopub.status.idle": "2025-06-19T21:06:30.291045Z",
-     "shell.execute_reply": "2025-06-19T21:06:30.289228Z"
+     "iopub.execute_input": "2025-06-19T22:54:26.531463Z",
+     "iopub.status.busy": "2025-06-19T22:54:26.529341Z",
+     "iopub.status.idle": "2025-06-19T22:54:26.616938Z",
+     "shell.execute_reply": "2025-06-19T22:54:26.612127Z"
     },
     "papermill": {
-     "duration": 0.120748,
-     "end_time": "2025-06-19T21:06:30.294347",
+     "duration": 0.202401,
+     "end_time": "2025-06-19T22:54:26.622797",
      "exception": false,
-     "start_time": "2025-06-19T21:06:30.173599",
+     "start_time": "2025-06-19T22:54:26.420396",
      "status": "completed"
     },
     "tags": []
@@ -6545,18 +6500,18 @@
     "modelo3 <- lm(log10(Age) ~ log10(Length) + log10(Shucked.Weight) + log10(Shell.Weight) + log10(Height + 1) + Sex,\n",
     "              data = dados_treino)\n",
     "\n",
-    "summary(modelo3)\n"
+    "summary(modelo3)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "a6473f29",
+   "id": "520db6f8",
    "metadata": {
     "papermill": {
-     "duration": 0.078934,
-     "end_time": "2025-06-19T21:06:30.486026",
+     "duration": 0.105543,
+     "end_time": "2025-06-19T22:54:26.881469",
      "exception": false,
-     "start_time": "2025-06-19T21:06:30.407092",
+     "start_time": "2025-06-19T22:54:26.775926",
      "status": "completed"
     },
     "tags": []
@@ -6569,19 +6524,19 @@
   {
    "cell_type": "code",
    "execution_count": 84,
-   "id": "7c72fa58",
+   "id": "d0bd4607",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:30.646517Z",
-     "iopub.status.busy": "2025-06-19T21:06:30.645151Z",
-     "iopub.status.idle": "2025-06-19T21:06:30.690039Z",
-     "shell.execute_reply": "2025-06-19T21:06:30.687037Z"
+     "iopub.execute_input": "2025-06-19T22:54:27.104887Z",
+     "iopub.status.busy": "2025-06-19T22:54:27.102718Z",
+     "iopub.status.idle": "2025-06-19T22:54:27.167243Z",
+     "shell.execute_reply": "2025-06-19T22:54:27.162831Z"
     },
     "papermill": {
-     "duration": 0.127955,
-     "end_time": "2025-06-19T21:06:30.693098",
+     "duration": 0.183076,
+     "end_time": "2025-06-19T22:54:27.172331",
      "exception": false,
-     "start_time": "2025-06-19T21:06:30.565143",
+     "start_time": "2025-06-19T22:54:26.989255",
      "status": "completed"
     },
     "tags": []
@@ -6624,18 +6579,18 @@
     "modelo4 <- lm(log10(Age) ~ log10(Diameter) + log10(Length) + log10(Height + 1) + log10(Weight) + Sex,\n",
     "              data = dados_treino)\n",
     "\n",
-    "summary(modelo4)\n"
+    "summary(modelo4)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "aa7dd06f",
+   "id": "2521ad84",
    "metadata": {
     "papermill": {
-     "duration": 0.079065,
-     "end_time": "2025-06-19T21:06:30.883780",
+     "duration": 0.107146,
+     "end_time": "2025-06-19T22:54:27.441130",
      "exception": false,
-     "start_time": "2025-06-19T21:06:30.804715",
+     "start_time": "2025-06-19T22:54:27.333984",
      "status": "completed"
     },
     "tags": []
@@ -6648,19 +6603,19 @@
   {
    "cell_type": "code",
    "execution_count": 85,
-   "id": "b2f4e53c",
+   "id": "4fe8e457",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:31.047086Z",
-     "iopub.status.busy": "2025-06-19T21:06:31.045232Z",
-     "iopub.status.idle": "2025-06-19T21:06:31.101538Z",
-     "shell.execute_reply": "2025-06-19T21:06:31.098759Z"
+     "iopub.execute_input": "2025-06-19T22:54:27.659336Z",
+     "iopub.status.busy": "2025-06-19T22:54:27.657589Z",
+     "iopub.status.idle": "2025-06-19T22:54:27.717280Z",
+     "shell.execute_reply": "2025-06-19T22:54:27.713836Z"
     },
     "papermill": {
-     "duration": 0.142032,
-     "end_time": "2025-06-19T21:06:31.104869",
+     "duration": 0.173805,
+     "end_time": "2025-06-19T22:54:27.722136",
      "exception": false,
-     "start_time": "2025-06-19T21:06:30.962837",
+     "start_time": "2025-06-19T22:54:27.548331",
      "status": "completed"
     },
     "tags": []
@@ -6701,18 +6656,18 @@
     "modelo5 <- lm(log10(Age) ~ log10(Weight)*Sex,\n",
     "              data = dados_treino)\n",
     "\n",
-    "summary(modelo5)\n"
+    "summary(modelo5)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "d1b4be8f",
+   "id": "7eab7ad7",
    "metadata": {
     "papermill": {
-     "duration": 0.080078,
-     "end_time": "2025-06-19T21:06:31.296627",
+     "duration": 0.107743,
+     "end_time": "2025-06-19T22:54:27.987536",
      "exception": false,
-     "start_time": "2025-06-19T21:06:31.216549",
+     "start_time": "2025-06-19T22:54:27.879793",
      "status": "completed"
     },
     "tags": []
@@ -6725,19 +6680,19 @@
   {
    "cell_type": "code",
    "execution_count": 86,
-   "id": "a784fac9",
+   "id": "95e028a7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:31.461015Z",
-     "iopub.status.busy": "2025-06-19T21:06:31.458983Z",
-     "iopub.status.idle": "2025-06-19T21:06:31.495372Z",
-     "shell.execute_reply": "2025-06-19T21:06:31.493447Z"
+     "iopub.execute_input": "2025-06-19T22:54:28.207157Z",
+     "iopub.status.busy": "2025-06-19T22:54:28.205468Z",
+     "iopub.status.idle": "2025-06-19T22:54:28.277151Z",
+     "shell.execute_reply": "2025-06-19T22:54:28.272283Z"
     },
     "papermill": {
-     "duration": 0.121046,
-     "end_time": "2025-06-19T21:06:31.498142",
+     "duration": 0.187785,
+     "end_time": "2025-06-19T22:54:28.283218",
      "exception": false,
-     "start_time": "2025-06-19T21:06:31.377096",
+     "start_time": "2025-06-19T22:54:28.095433",
      "status": "completed"
     },
     "tags": []
@@ -6782,18 +6737,18 @@
     "modelo6 <- lm(log10(Age) ~ log10(Shell.Weight)*Sex + log10(Shucked.Weight)*Sex,\n",
     "              data = dados_treino)\n",
     "\n",
-    "summary(modelo6)\n"
+    "summary(modelo6)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "46a1f95c",
+   "id": "4e9c76aa",
    "metadata": {
     "papermill": {
-     "duration": 0.077954,
-     "end_time": "2025-06-19T21:06:31.688826",
+     "duration": 0.107795,
+     "end_time": "2025-06-19T22:54:28.543586",
      "exception": false,
-     "start_time": "2025-06-19T21:06:31.610872",
+     "start_time": "2025-06-19T22:54:28.435791",
      "status": "completed"
     },
     "tags": []
@@ -6806,19 +6761,19 @@
   {
    "cell_type": "code",
    "execution_count": 87,
-   "id": "e4cc79bb",
+   "id": "11df0c56",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:31.852312Z",
-     "iopub.status.busy": "2025-06-19T21:06:31.850260Z",
-     "iopub.status.idle": "2025-06-19T21:06:31.886830Z",
-     "shell.execute_reply": "2025-06-19T21:06:31.884758Z"
+     "iopub.execute_input": "2025-06-19T22:54:28.763687Z",
+     "iopub.status.busy": "2025-06-19T22:54:28.761426Z",
+     "iopub.status.idle": "2025-06-19T22:54:28.826133Z",
+     "shell.execute_reply": "2025-06-19T22:54:28.822626Z"
     },
     "papermill": {
-     "duration": 0.123572,
-     "end_time": "2025-06-19T21:06:31.890018",
+     "duration": 0.179661,
+     "end_time": "2025-06-19T22:54:28.831192",
      "exception": false,
-     "start_time": "2025-06-19T21:06:31.766446",
+     "start_time": "2025-06-19T22:54:28.651531",
      "status": "completed"
     },
     "tags": []
@@ -6862,18 +6817,18 @@
     "modelo7 <- lm(log10(Age) ~ log10(Height + 1) + log10(Diameter) + log10(Length)*Sex,\n",
     "              data = dados_treino)\n",
     "\n",
-    "summary(modelo7)\n"
+    "summary(modelo7)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "5aef3d09",
+   "id": "8db5da5f",
    "metadata": {
     "papermill": {
-     "duration": 0.0822,
-     "end_time": "2025-06-19T21:06:32.086988",
+     "duration": 0.106313,
+     "end_time": "2025-06-19T22:54:29.095400",
      "exception": false,
-     "start_time": "2025-06-19T21:06:32.004788",
+     "start_time": "2025-06-19T22:54:28.989087",
      "status": "completed"
     },
     "tags": []
@@ -6886,19 +6841,19 @@
   {
    "cell_type": "code",
    "execution_count": 88,
-   "id": "10917c8e",
+   "id": "c09479a9",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:32.254564Z",
-     "iopub.status.busy": "2025-06-19T21:06:32.253156Z",
-     "iopub.status.idle": "2025-06-19T21:06:32.418213Z",
-     "shell.execute_reply": "2025-06-19T21:06:32.415263Z"
+     "iopub.execute_input": "2025-06-19T22:54:29.312052Z",
+     "iopub.status.busy": "2025-06-19T22:54:29.310410Z",
+     "iopub.status.idle": "2025-06-19T22:54:29.731636Z",
+     "shell.execute_reply": "2025-06-19T22:54:29.729918Z"
     },
     "papermill": {
-     "duration": 0.25948,
-     "end_time": "2025-06-19T21:06:32.427380",
+     "duration": 0.533199,
+     "end_time": "2025-06-19T22:54:29.734638",
      "exception": false,
-     "start_time": "2025-06-19T21:06:32.167900",
+     "start_time": "2025-06-19T22:54:29.201439",
      "status": "completed"
     },
     "tags": []
@@ -6914,18 +6869,18 @@
     "  \"modelo5\" = 10^(predict(modelo5, dados_treino)), \n",
     "  \"modelo6\" = 10^(predict(modelo6, dados_treino)),\n",
     "  \"modelo7\" = 10^(predict(modelo7, dados_treino))\n",
-    ")\n"
+    ")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "a32ac878",
+   "id": "0c0f9318",
    "metadata": {
     "papermill": {
-     "duration": 0.081927,
-     "end_time": "2025-06-19T21:06:32.618618",
+     "duration": 0.106333,
+     "end_time": "2025-06-19T22:54:29.947770",
      "exception": false,
-     "start_time": "2025-06-19T21:06:32.536691",
+     "start_time": "2025-06-19T22:54:29.841437",
      "status": "completed"
     },
     "tags": []
@@ -6938,19 +6893,19 @@
   {
    "cell_type": "code",
    "execution_count": 89,
-   "id": "266c2f64",
+   "id": "01715b03",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:32.787144Z",
-     "iopub.status.busy": "2025-06-19T21:06:32.785166Z",
-     "iopub.status.idle": "2025-06-19T21:06:32.812846Z",
-     "shell.execute_reply": "2025-06-19T21:06:32.810934Z"
+     "iopub.execute_input": "2025-06-19T22:54:30.165689Z",
+     "iopub.status.busy": "2025-06-19T22:54:30.164230Z",
+     "iopub.status.idle": "2025-06-19T22:54:30.187147Z",
+     "shell.execute_reply": "2025-06-19T22:54:30.184864Z"
     },
     "papermill": {
-     "duration": 0.114845,
-     "end_time": "2025-06-19T21:06:32.815139",
+     "duration": 0.134278,
+     "end_time": "2025-06-19T22:54:30.189453",
      "exception": false,
-     "start_time": "2025-06-19T21:06:32.700294",
+     "start_time": "2025-06-19T22:54:30.055175",
      "status": "completed"
     },
     "tags": []
@@ -6974,18 +6929,18 @@
     "for (i in 2:length(resultados)) {\n",
     "  mae <- mean(abs(resultados$idade_real - resultados[[i]]))\n",
     "  print(paste(\"O MAE do modelo\",i-1, \"é igual à\", mae))\n",
-    "}\n"
+    "}"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "ee42846f",
+   "id": "beef2cf5",
    "metadata": {
     "papermill": {
-     "duration": 0.086091,
-     "end_time": "2025-06-19T21:06:32.985254",
+     "duration": 0.10813,
+     "end_time": "2025-06-19T22:54:30.405081",
      "exception": false,
-     "start_time": "2025-06-19T21:06:32.899163",
+     "start_time": "2025-06-19T22:54:30.296951",
      "status": "completed"
     },
     "tags": []
@@ -6999,19 +6954,19 @@
   {
    "cell_type": "code",
    "execution_count": 90,
-   "id": "ecd40782",
+   "id": "9f74396d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:33.154471Z",
-     "iopub.status.busy": "2025-06-19T21:06:33.153108Z",
-     "iopub.status.idle": "2025-06-19T21:06:33.191482Z",
-     "shell.execute_reply": "2025-06-19T21:06:33.189630Z"
+     "iopub.execute_input": "2025-06-19T22:54:30.624638Z",
+     "iopub.status.busy": "2025-06-19T22:54:30.623080Z",
+     "iopub.status.idle": "2025-06-19T22:54:30.667926Z",
+     "shell.execute_reply": "2025-06-19T22:54:30.666214Z"
     },
     "papermill": {
-     "duration": 0.1226,
-     "end_time": "2025-06-19T21:06:33.194047",
+     "duration": 0.157935,
+     "end_time": "2025-06-19T22:54:30.670306",
      "exception": false,
-     "start_time": "2025-06-19T21:06:33.071447",
+     "start_time": "2025-06-19T22:54:30.512371",
      "status": "completed"
     },
     "tags": []
@@ -7033,18 +6988,18 @@
     "  bind_rows(data.frame(Valor = resultados[[8]], Fonte = \"Modelo 7\")) |> \n",
     "  mutate(\n",
     "    Fonte = factor(Fonte, levels = c(\"Real\", \"Modelo 1\", \"Modelo 2\", \"Modelo 3\", \"Modelo 4\", \"Modelo 5\", \"Modelo 6\", \"Modelo 7\"))\n",
-    "  )\n"
+    "  )"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "1305022d",
+   "id": "bb70c3b2",
    "metadata": {
     "papermill": {
-     "duration": 0.078768,
-     "end_time": "2025-06-19T21:06:33.351910",
+     "duration": 0.107808,
+     "end_time": "2025-06-19T22:54:30.885016",
      "exception": false,
-     "start_time": "2025-06-19T21:06:33.273142",
+     "start_time": "2025-06-19T22:54:30.777208",
      "status": "completed"
     },
     "tags": []
@@ -7056,19 +7011,19 @@
   {
    "cell_type": "code",
    "execution_count": 91,
-   "id": "9aa24361",
+   "id": "eaaf19e3",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:33.516560Z",
-     "iopub.status.busy": "2025-06-19T21:06:33.514492Z",
-     "iopub.status.idle": "2025-06-19T21:06:34.183715Z",
-     "shell.execute_reply": "2025-06-19T21:06:34.182521Z"
+     "iopub.execute_input": "2025-06-19T22:54:31.103965Z",
+     "iopub.status.busy": "2025-06-19T22:54:31.102397Z",
+     "iopub.status.idle": "2025-06-19T22:54:31.864761Z",
+     "shell.execute_reply": "2025-06-19T22:54:31.862708Z"
     },
     "papermill": {
-     "duration": 0.755718,
-     "end_time": "2025-06-19T21:06:34.185700",
+     "duration": 0.874686,
+     "end_time": "2025-06-19T22:54:31.867213",
      "exception": false,
-     "start_time": "2025-06-19T21:06:33.429982",
+     "start_time": "2025-06-19T22:54:30.992527",
      "status": "completed"
     },
     "tags": []
@@ -7096,18 +7051,18 @@
     "    y = \"Idade (Escala Original)\"\n",
     "  ) +\n",
     "  theme_fivethirtyeight() +\n",
-    "  theme(axis.text.x = element_text(angle = 45, hjust = 1))\n"
+    "  theme(axis.text.x = element_text(angle = 45, hjust = 1))"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "57de00ed",
+   "id": "2d5070d0",
    "metadata": {
     "papermill": {
-     "duration": 0.081524,
-     "end_time": "2025-06-19T21:06:34.353406",
+     "duration": 0.118388,
+     "end_time": "2025-06-19T22:54:32.101054",
      "exception": false,
-     "start_time": "2025-06-19T21:06:34.271882",
+     "start_time": "2025-06-19T22:54:31.982666",
      "status": "completed"
     },
     "tags": []
@@ -7121,19 +7076,19 @@
   {
    "cell_type": "code",
    "execution_count": 92,
-   "id": "b81d6582",
+   "id": "3e7df543",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:34.517887Z",
-     "iopub.status.busy": "2025-06-19T21:06:34.516365Z",
-     "iopub.status.idle": "2025-06-19T21:06:34.529811Z",
-     "shell.execute_reply": "2025-06-19T21:06:34.528288Z"
+     "iopub.execute_input": "2025-06-19T22:54:32.328448Z",
+     "iopub.status.busy": "2025-06-19T22:54:32.325297Z",
+     "iopub.status.idle": "2025-06-19T22:54:32.344490Z",
+     "shell.execute_reply": "2025-06-19T22:54:32.342626Z"
     },
     "papermill": {
-     "duration": 0.099416,
-     "end_time": "2025-06-19T21:06:34.531890",
+     "duration": 0.134419,
+     "end_time": "2025-06-19T22:54:32.346816",
      "exception": false,
-     "start_time": "2025-06-19T21:06:34.432474",
+     "start_time": "2025-06-19T22:54:32.212397",
      "status": "completed"
     },
     "tags": []
@@ -7152,19 +7107,18 @@
     }
    ],
    "source": [
-    "modelo1$call$formula\n",
-    "\n"
+    "modelo1$call$formula"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "9da5b648",
+   "id": "dec4bd42",
    "metadata": {
     "papermill": {
-     "duration": 0.079505,
-     "end_time": "2025-06-19T21:06:34.691466",
+     "duration": 0.11118,
+     "end_time": "2025-06-19T22:54:32.569549",
      "exception": false,
-     "start_time": "2025-06-19T21:06:34.611961",
+     "start_time": "2025-06-19T22:54:32.458369",
      "status": "completed"
     },
     "tags": []
@@ -7177,19 +7131,19 @@
   {
    "cell_type": "code",
    "execution_count": 93,
-   "id": "e1202589",
+   "id": "640d44fd",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:34.857649Z",
-     "iopub.status.busy": "2025-06-19T21:06:34.855756Z",
-     "iopub.status.idle": "2025-06-19T21:06:34.869993Z",
-     "shell.execute_reply": "2025-06-19T21:06:34.868762Z"
+     "iopub.execute_input": "2025-06-19T22:54:32.796763Z",
+     "iopub.status.busy": "2025-06-19T22:54:32.794356Z",
+     "iopub.status.idle": "2025-06-19T22:54:32.810956Z",
+     "shell.execute_reply": "2025-06-19T22:54:32.809265Z"
     },
     "papermill": {
-     "duration": 0.099368,
-     "end_time": "2025-06-19T21:06:34.871499",
+     "duration": 0.132882,
+     "end_time": "2025-06-19T22:54:32.813230",
      "exception": false,
-     "start_time": "2025-06-19T21:06:34.772131",
+     "start_time": "2025-06-19T22:54:32.680348",
      "status": "completed"
     },
     "tags": []
@@ -7207,19 +7161,18 @@
     }
    ],
    "source": [
-    "modelo2$call$formula\n",
-    "\n"
+    "modelo2$call$formula"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "7f75f049",
+   "id": "1747fc81",
    "metadata": {
     "papermill": {
-     "duration": 0.079344,
-     "end_time": "2025-06-19T21:06:35.028636",
+     "duration": 0.108202,
+     "end_time": "2025-06-19T22:54:33.028799",
      "exception": false,
-     "start_time": "2025-06-19T21:06:34.949292",
+     "start_time": "2025-06-19T22:54:32.920597",
      "status": "completed"
     },
     "tags": []
@@ -7235,19 +7188,19 @@
   {
    "cell_type": "code",
    "execution_count": 94,
-   "id": "6341cea2",
+   "id": "2a93b118",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:35.190992Z",
-     "iopub.status.busy": "2025-06-19T21:06:35.189762Z",
-     "iopub.status.idle": "2025-06-19T21:06:35.249788Z",
-     "shell.execute_reply": "2025-06-19T21:06:35.248428Z"
+     "iopub.execute_input": "2025-06-19T22:54:33.250546Z",
+     "iopub.status.busy": "2025-06-19T22:54:33.247520Z",
+     "iopub.status.idle": "2025-06-19T22:54:33.465372Z",
+     "shell.execute_reply": "2025-06-19T22:54:33.462732Z"
     },
     "papermill": {
-     "duration": 0.143673,
-     "end_time": "2025-06-19T21:06:35.251568",
+     "duration": 0.33183,
+     "end_time": "2025-06-19T22:54:33.468716",
      "exception": false,
-     "start_time": "2025-06-19T21:06:35.107895",
+     "start_time": "2025-06-19T22:54:33.136886",
      "status": "completed"
     },
     "tags": []
@@ -7272,18 +7225,18 @@
    ],
    "source": [
     "dados_test <- read.csv2(\"/kaggle/input/competicao-estatistica-iii/test.csv\", sep = \",\")\n",
-    "str(dados_test)\n"
+    "str(dados_test)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "81307055",
+   "id": "d031802f",
    "metadata": {
     "papermill": {
-     "duration": 0.083146,
-     "end_time": "2025-06-19T21:06:35.414469",
+     "duration": 0.108295,
+     "end_time": "2025-06-19T22:54:33.684457",
      "exception": false,
-     "start_time": "2025-06-19T21:06:35.331323",
+     "start_time": "2025-06-19T22:54:33.576162",
      "status": "completed"
     },
     "tags": []
@@ -7296,19 +7249,19 @@
   {
    "cell_type": "code",
    "execution_count": 95,
-   "id": "792019f6",
+   "id": "c903cbf1",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:35.585454Z",
-     "iopub.status.busy": "2025-06-19T21:06:35.584104Z",
-     "iopub.status.idle": "2025-06-19T21:06:35.608039Z",
-     "shell.execute_reply": "2025-06-19T21:06:35.606689Z"
+     "iopub.execute_input": "2025-06-19T22:54:33.906592Z",
+     "iopub.status.busy": "2025-06-19T22:54:33.903512Z",
+     "iopub.status.idle": "2025-06-19T22:54:33.936178Z",
+     "shell.execute_reply": "2025-06-19T22:54:33.934497Z"
     },
     "papermill": {
-     "duration": 0.110682,
-     "end_time": "2025-06-19T21:06:35.610321",
+     "duration": 0.145764,
+     "end_time": "2025-06-19T22:54:33.938617",
      "exception": false,
-     "start_time": "2025-06-19T21:06:35.499639",
+     "start_time": "2025-06-19T22:54:33.792853",
      "status": "completed"
     },
     "tags": []
@@ -7321,18 +7274,18 @@
     "dados_test$Weight <- as.numeric(dados_test$Weight)\n",
     "dados_test$Shucked.Weight <- as.numeric(dados_test$Shucked.Weight)\n",
     "dados_test$Viscera.Weight <- as.numeric(dados_test$Viscera.Weight)\n",
-    "dados_test$Shell.Weight <- as.numeric(dados_test$Shell.Weight)\n"
+    "dados_test$Shell.Weight <- as.numeric(dados_test$Shell.Weight)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "c32c4817",
+   "id": "90d3bc32",
    "metadata": {
     "papermill": {
-     "duration": 0.080343,
-     "end_time": "2025-06-19T21:06:35.769996",
+     "duration": 0.107386,
+     "end_time": "2025-06-19T22:54:34.154655",
      "exception": false,
-     "start_time": "2025-06-19T21:06:35.689653",
+     "start_time": "2025-06-19T22:54:34.047269",
      "status": "completed"
     },
     "tags": []
@@ -7345,37 +7298,37 @@
   {
    "cell_type": "code",
    "execution_count": 96,
-   "id": "186fd0d4",
+   "id": "3d73917c",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:35.935706Z",
-     "iopub.status.busy": "2025-06-19T21:06:35.933602Z",
-     "iopub.status.idle": "2025-06-19T21:06:35.957730Z",
-     "shell.execute_reply": "2025-06-19T21:06:35.955731Z"
+     "iopub.execute_input": "2025-06-19T22:54:34.376716Z",
+     "iopub.status.busy": "2025-06-19T22:54:34.373678Z",
+     "iopub.status.idle": "2025-06-19T22:54:34.396882Z",
+     "shell.execute_reply": "2025-06-19T22:54:34.392931Z"
     },
     "papermill": {
-     "duration": 0.110019,
-     "end_time": "2025-06-19T21:06:35.960724",
+     "duration": 0.140186,
+     "end_time": "2025-06-19T22:54:34.401994",
      "exception": false,
-     "start_time": "2025-06-19T21:06:35.850705",
+     "start_time": "2025-06-19T22:54:34.261808",
      "status": "completed"
     },
     "tags": []
    },
    "outputs": [],
    "source": [
-    "dados_test$Idade <- 10^(predict(modelo2, dados_test))"
+    "dados_test$Age <- 10^(predict(modelo2, dados_test))"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "7bc6ca47",
+   "id": "be6b21f5",
    "metadata": {
     "papermill": {
-     "duration": 0.081061,
-     "end_time": "2025-06-19T21:06:36.160665",
+     "duration": 0.111295,
+     "end_time": "2025-06-19T22:54:34.694309",
      "exception": false,
-     "start_time": "2025-06-19T21:06:36.079604",
+     "start_time": "2025-06-19T22:54:34.583014",
      "status": "completed"
     },
     "tags": []
@@ -7388,19 +7341,19 @@
   {
    "cell_type": "code",
    "execution_count": 97,
-   "id": "155b06b3",
+   "id": "51cf0844",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:36.326933Z",
-     "iopub.status.busy": "2025-06-19T21:06:36.325584Z",
-     "iopub.status.idle": "2025-06-19T21:06:36.343746Z",
-     "shell.execute_reply": "2025-06-19T21:06:36.342063Z"
+     "iopub.execute_input": "2025-06-19T22:54:34.956226Z",
+     "iopub.status.busy": "2025-06-19T22:54:34.954636Z",
+     "iopub.status.idle": "2025-06-19T22:54:34.979214Z",
+     "shell.execute_reply": "2025-06-19T22:54:34.977080Z"
     },
     "papermill": {
-     "duration": 0.103649,
-     "end_time": "2025-06-19T21:06:36.345563",
+     "duration": 0.176301,
+     "end_time": "2025-06-19T22:54:34.982262",
      "exception": false,
-     "start_time": "2025-06-19T21:06:36.241914",
+     "start_time": "2025-06-19T22:54:34.805961",
      "status": "completed"
     },
     "tags": []
@@ -7428,19 +7381,19 @@
     }
    ],
    "source": [
-    "summary(dados_test$Idade)\n",
+    "summary(dados_test$Age)\n",
     "summary(dados_treino$Age)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "6c809b95",
+   "id": "4398ded9",
    "metadata": {
     "papermill": {
-     "duration": 0.085237,
-     "end_time": "2025-06-19T21:06:36.510484",
+     "duration": 0.107259,
+     "end_time": "2025-06-19T22:54:35.199256",
      "exception": false,
-     "start_time": "2025-06-19T21:06:36.425247",
+     "start_time": "2025-06-19T22:54:35.091997",
      "status": "completed"
     },
     "tags": []
@@ -7462,19 +7415,19 @@
   {
    "cell_type": "code",
    "execution_count": 98,
-   "id": "b6d91b32",
+   "id": "5094add6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-19T21:06:36.709188Z",
-     "iopub.status.busy": "2025-06-19T21:06:36.708088Z",
-     "iopub.status.idle": "2025-06-19T21:06:36.737334Z",
-     "shell.execute_reply": "2025-06-19T21:06:36.735908Z"
+     "iopub.execute_input": "2025-06-19T22:54:35.427587Z",
+     "iopub.status.busy": "2025-06-19T22:54:35.424013Z",
+     "iopub.status.idle": "2025-06-19T22:54:35.472147Z",
+     "shell.execute_reply": "2025-06-19T22:54:35.470364Z"
     },
     "papermill": {
-     "duration": 0.145735,
-     "end_time": "2025-06-19T21:06:36.739148",
+     "duration": 0.167043,
+     "end_time": "2025-06-19T22:54:35.474651",
      "exception": false,
-     "start_time": "2025-06-19T21:06:36.593413",
+     "start_time": "2025-06-19T22:54:35.307608",
      "status": "completed"
     },
     "tags": []
@@ -7520,14 +7473,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 53.996052,
-   "end_time": "2025-06-19T21:06:36.939235",
+   "duration": 77.304775,
+   "end_time": "2025-06-19T22:54:35.706403",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2025-06-19T21:05:42.943183",
+   "start_time": "2025-06-19T22:53:18.401628",
    "version": "2.6.0"
   }
  },
